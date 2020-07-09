@@ -8,7 +8,7 @@
 
 ## 生活相关 <a id="lifes"></a>
 
-* [里程碑](lifes/li-cheng-bei.md)
+* [长期主义者必读](lifes/long-time.md)
 * [陪你重新长大](lifes/upup/README.md)
   * [让孩子怎么成长最合适？](lifes/upup/fa-kan-ci.md)
   * [智力脑](lifes/upup/zhi-li-nao.md)
