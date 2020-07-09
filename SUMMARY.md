@@ -4,11 +4,7 @@
 
 ## 计算机相关 <a id="computers"></a>
 
-* [暂无](computers/untitled.md)
-
----
-
-* [Untitled](untitled.md)
+* [网络安全等](computers/safe.md)
 
 ## 生活相关 <a id="lifes"></a>
 
