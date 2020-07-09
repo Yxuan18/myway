@@ -8,7 +8,12 @@
 
 ## 生活相关 <a id="lifes"></a>
 
+* [里程碑](lifes/li-cheng-bei.md)
 * [陪你重新长大](lifes/upup/README.md)
-  * [让孩子怎么成长最合适？](lifes/upup/rang-hai-zi-zen-me-cheng-chang-zui-he-kuo.md)
-  * [Untitled](lifes/upup/untitled.md)
+  * [让孩子怎么成长最合适？](lifes/upup/fa-kan-ci.md)
+  * [智力脑](lifes/upup/zhi-li-nao.md)
+  * [语言脑](lifes/upup/yu-yan-nao.md)
+  * [情绪脑](lifes/upup/qing-xu-nao.md)
+  * [运动脑](lifes/upup/yun-dong-nao.md)
+  * [创意脑](lifes/upup/chuang-yi-nao.md)
 
