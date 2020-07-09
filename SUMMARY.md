@@ -4,9 +4,9 @@
 
 ## 生活相关
 
-* [Untitled](sheng-huo-xiang-guan/untitled.md)
+* [暂无](sheng-huo-xiang-guan/untitled.md)
 
 ## computers
 
-* [Untitled](computers/untitled.md)
+* [暂无](computers/untitled.md)
 
