@@ -2,11 +2,11 @@
 
 * [出发](README.md)
 
-## 生活相关
+## 生活相关 <a id="lifes"></a>
 
-* [暂无](sheng-huo-xiang-guan/untitled.md)
+* [我陪你长大](lifes/untitled.md)
 
-## computers
+## 计算机相关 <a id="computers"></a>
 
 * [暂无](computers/untitled.md)
 
