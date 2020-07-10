@@ -9,6 +9,7 @@
 
 ## 生活相关 <a id="lifes"></a>
 
+* [职场相关](lifes/zhichang.md)
 * [长期主义者必读](lifes/long-time.md)
 * [陪你重新长大](lifes/upup/README.md)
   * [让孩子怎么成长最合适？](lifes/upup/fa-kan-ci.md)
