@@ -12,6 +12,7 @@
 * [职场相关](lifes/zhichang/README.md)
   * [面试指南](lifes/zhichang/mianshi/README.md)
     * [面试中的潜规则](lifes/zhichang/mianshi/qian-gui-ze.md)
+    * [如何设计一份好的简历](lifes/zhichang/mianshi/ru-he-she-ji-yi-fen-hao-de-jian-li.md)
   * [面试通用](lifes/zhichang/mian-shi-tong-yong.md)
 * [长期主义者必读](lifes/long-time.md)
 * [陪你重新长大](lifes/upup/README.md)
