@@ -9,7 +9,10 @@
 
 ## 生活相关 <a id="lifes"></a>
 
-* [职场相关](lifes/zhichang.md)
+* [职场相关](lifes/zhichang/README.md)
+  * [面试指南](lifes/zhichang/mianshi/README.md)
+    * [面试中的潜规则](lifes/zhichang/mianshi/qian-gui-ze.md)
+  * [面试通用](lifes/zhichang/mian-shi-tong-yong.md)
 * [长期主义者必读](lifes/long-time.md)
 * [陪你重新长大](lifes/upup/README.md)
   * [让孩子怎么成长最合适？](lifes/upup/fa-kan-ci.md)
