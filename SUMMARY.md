@@ -21,6 +21,7 @@
     * [喜拿offer，要走了怎么整](lifes/zhichang/mianshi/xi-na-offer-yao-zou-le-zen-me-zheng.md)
   * [面试通用](lifes/zhichang/mian-shi-tong-yong.md)
 * [长期主义者必读](lifes/long-time/README.md)
+  * [关于成长，他还说](lifes/long-time/guan-yu-cheng-chang-ta-hai-shuo.md)
   * [关于成长，他说](lifes/long-time/guan-yu-cheng-chang-ta-shuo.md)
   * [开始前的一些话](lifes/long-time/kai-shi-qian-de-yi-xie-hua.md)
 * [陪你重新长大](lifes/upup/README.md)
