@@ -2,11 +2,6 @@
 
 * [出发](README.md)
 
-## 计算机相关 <a id="computers"></a>
-
-* [网络安全等](computers/safe.md)
-* [网络安全基本功](computers/untitled.md)
-
 ## 生活相关 <a id="lifes"></a>
 
 * [职场相关](lifes/zhichang/README.md)
