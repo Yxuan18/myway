@@ -5,6 +5,7 @@
 ## 生活相关 <a id="lifes"></a>
 
 * [职场相关](lifes/zhichang/README.md)
+  * [职场问题](lifes/zhichang/zhi-chang-wen-ti.md)
   * [面试指南](lifes/zhichang/mianshi/README.md)
     * [面试中的潜规则](lifes/zhichang/mianshi/qian-gui-ze.md)
     * [如何设计一份好的简历](lifes/zhichang/mianshi/ru-he-she-ji-yi-fen-hao-de-jian-li.md)
@@ -19,7 +20,8 @@
     * [该谈谈薪资问题了](lifes/zhichang/mianshi/gai-tan-tan-xin-zi-wen-ti-le.md)
     * [如何更好沟通，拿下心仪offer](lifes/zhichang/mianshi/ru-he-geng-hao-gou-tong-na-xia-xin-yi-offer.md)
     * [喜拿offer，要走了怎么整](lifes/zhichang/mianshi/xi-na-offer-yao-zou-le-zen-me-zheng.md)
-  * [面试通用](lifes/zhichang/mian-shi-tong-yong.md)
+  * [面试通用](lifes/zhichang/mian-shi-tong-yong/README.md)
+    * [女性](lifes/zhichang/mian-shi-tong-yong/nv-xing.md)
 * [长期主义者必读](lifes/long-time/README.md)
   * [关于成长，他还说](lifes/long-time/guan-yu-cheng-chang-ta-hai-shuo.md)
   * [关于成长，他说](lifes/long-time/guan-yu-cheng-chang-ta-shuo.md)
