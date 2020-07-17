@@ -5,6 +5,8 @@
 ## 生活相关 <a id="lifes"></a>
 
 * [职场相关](lifes/zhichang/README.md)
+  * [职场生活](lifes/zhichang/zhi-chang-sheng-huo/README.md)
+    * [工作秘籍](lifes/zhichang/zhi-chang-sheng-huo/gong-zuo-mi-ji.md)
   * [面试指南](lifes/zhichang/mianshi/README.md)
     * [面试中的潜规则](lifes/zhichang/mianshi/qian-gui-ze.md)
     * [如何设计一份好的简历](lifes/zhichang/mianshi/ru-he-she-ji-yi-fen-hao-de-jian-li.md)
