@@ -33,7 +33,6 @@
       * [职场成熟期](lifes/zhichang/zhi-chang-sheng-huo/tong-guan-shou-ce/zhi-chang-cheng-shou-qi.md)
       * [职场转型期](lifes/zhichang/zhi-chang-sheng-huo/tong-guan-shou-ce/zhi-chang-zhuan-xing-qi.md)
 * [长期主义者必读](lifes/long-time/README.md)
-  * [关于成长，他还说](lifes/long-time/guan-yu-cheng-chang-ta-hai-shuo.md)
   * [关于成长，他说-1](lifes/long-time/he-say01.md)
   * [关于成长，他说-2](lifes/long-time/he-say02.md)
   * [开始前的一些话](lifes/long-time/kai-shi-qian-de-yi-xie-hua.md)
