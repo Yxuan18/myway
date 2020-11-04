@@ -57,5 +57,10 @@
   * [导论:沟通是个无限游戏](zhi-chang/gt/00.md)
   * [结构化倾听：怎样听懂真实意图目录](zhi-chang/gt/01.md)
   * [三步确认法：怎样让对方相信我听懂了](zhi-chang/gt/02.md)
-  * [积极回应：怎样针对性地反馈](zhi-chang/gt/04.md)
+  * [积极回应：怎样针对性地反馈](zhi-chang/gt/03.md)
+  * [开放性：怎样创造共识](zhi-chang/gt/04.md)
+  * [目标感：怎样达成目标](zhi-chang/gt/05.md)
+  * [建设性：怎样把沟通导向行](zhi-chang/gt/06.md)
+  * [卡位怎么破冰](zhi-chang/gt/07.md)
+  * [追光：怎么赞美一个人](zhi-chang/gt/08.md)
 
