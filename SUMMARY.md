@@ -63,7 +63,7 @@
   * [建设性：怎样把沟通导向行](zhi-chang/gt/06.md)
   * [卡位怎么破冰](zhi-chang/gt/07.md)
   * [追光：怎么赞美一个人](zhi-chang/gt/08.md)
-  * [建模：怎样激励一个人&gt;](zhi-chang/gt/09.md)
+  * [建模：怎样激励一个人](zhi-chang/gt/09.md)
   * [击穿：怎样说服一个人](zhi-chang/gt/10.md)
   * [结界：怎样辅导一个人](zhi-chang/gt/11.md)
   * [支持：怎样安慰一个人](zhi-chang/gt/12.md)
