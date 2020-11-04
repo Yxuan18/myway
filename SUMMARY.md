@@ -53,5 +53,9 @@
       * [晋升加速期](zhi-chang/zhichang/zhi-chang-sheng-huo/tong-guan-shou-ce/jin-sheng-jia-su-qi.md)
       * [职场成熟期](zhi-chang/zhichang/zhi-chang-sheng-huo/tong-guan-shou-ce/zhi-chang-cheng-shou-qi.md)
       * [职场转型期](zhi-chang/zhichang/zhi-chang-sheng-huo/tong-guan-shou-ce/zhi-chang-zhuan-xing-qi.md)
-* [得到-沟通训练营](zhi-chang/gt.md)
+* [得到-沟通训练营](zhi-chang/gt/README.md)
+  * [导论:沟通是个无限游戏](zhi-chang/gt/00.md)
+  * [结构化倾听：怎样听懂真实意图目录](zhi-chang/gt/01.md)
+  * [三步确认法：怎样让对方相信我听懂了](zhi-chang/gt/02.md)
+  * [积极回应：怎样针对性地反馈](zhi-chang/gt/04.md)
 
