@@ -65,7 +65,7 @@
   * [追光：怎么赞美一个人](zhi-chang/gt/08.md)
   * [建模：怎样激励一个人](zhi-chang/gt/09.md)
   * [击穿：怎样说服一个人](zhi-chang/gt/10.md)
-  * [结界：怎样辅导一个人](zhi-chang/gt/11.md)
+  * [结界：怎样辅导一个人&gt;](zhi-chang/gt/11.md)
   * [支持：怎样安慰一个人](zhi-chang/gt/12.md)
   * [刷新：怎样批评一个人](zhi-chang/gt/13.md)
   * [直给：怎样提意见](zhi-chang/gt/14.md)
