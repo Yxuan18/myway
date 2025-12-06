@@ -2,7 +2,7 @@
 
 * [出发](README.md)
 
-## 生活相关 <a id="lifes"></a>
+## 生活相关 <a href="#lifes" id="lifes"></a>
 
 * [长期主义者必读](lifes/long-time/README.md)
   * [关于成长，他说-1](lifes/long-time/he-say01.md)
@@ -19,9 +19,13 @@
   * [运动脑](lifes/upup/yun-dong-nao.md)
   * [创意脑](lifes/upup/chuang-yi-nao.md)
 
----
+***
 
-* [优质内容推荐](untitled.md)
+* [大概是指北吧](untitled/README.md)
+  * [关于科学，从基本素养谈起](untitled/guan-yu-ke-xue-cong-ji-ben-su-yang-tan-qi.md)
+  * [google play & other app](untitled/google-play-and-other-app.md)
+  * [USmart入金-OCBC](untitled/usmart-ru-jin-ocbc.md)
+  * [buy BOX, about mixin](untitled/buy-box-about-mixin.md)
 
 ## 职场
 
@@ -65,7 +69,7 @@
   * [追光：怎么赞美一个人](zhi-chang/gt/08.md)
   * [建模：怎样激励一个人](zhi-chang/gt/09.md)
   * [击穿：怎样说服一个人](zhi-chang/gt/10.md)
-  * [结界：怎样辅导一个人&gt;](zhi-chang/gt/11.md)
+  * [结界：怎样辅导一个人>](zhi-chang/gt/11.md)
   * [支持：怎样安慰一个人](zhi-chang/gt/12.md)
   * [刷新：怎样批评一个人](zhi-chang/gt/13.md)
   * [直给：怎样提意见](zhi-chang/gt/14.md)
@@ -75,3 +79,13 @@
   * [补网：怎样调节矛盾](zhi-chang/gt/18.md)
   * [示弱：怎样请求帮助](zhi-chang/gt/19.md)
 
+***
+
+* [With AI Think](withaithink/README.md)
+  * [IPO-HK](withaithink/ipo-hk.md)
+  * [Haitian](withaithink/haitian.md)
+  * [104](withaithink/104.md)
+  * [房子？](withaithink/fangzi.md)
+  * [Hengrui Medicine](withaithink/hengrui-medicine.md)
+  * [Pando or|and ANATM](withaithink/anatmp.md)
+  * [Bubble Mart 2024–2025: Performance, Share Price, and Inequality Impact](withaithink/bubble-mart-2024-2025-performance-share-price-and-inequality-impact.md)
