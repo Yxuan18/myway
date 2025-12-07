@@ -31,37 +31,35 @@ KXSW(科学上网)，以下简称 `联网` ，一向都是一个很敏感的话�
 
 上面的如果不行，可访问下面的网页：https://bajie.la/register?aff=Wv7FGsAe
 
-2、按照网站上的提示，输入自己的邮箱账号。需要确认可以收到验证码，需要在第二项中使用
+<figure><img src="../.gitbook/assets/PixPin_2025-12-07_10-12-05.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="https://ai.feishu.cn/space/api/box/stream/download/asynccode/?code=MTRlNDY1ZTU2YTdmZjllNzRkMWM4YTJlM2M3ZWZlODBfSmpiNVp3ODhpSTl5UzRFb1JOVVNFdU5DR0Zpc1hmS0xfVG9rZW46TnJVY2J1S0lhbzVYNXl4ZGdnSGN3OHc2bkJmXzE3NjQ5OTQ2Njk6MTc2NDk5ODI2OV9WNA" alt=""><figcaption></figcaption></figure>
+2、按照网站上的提示，输入自己的邮箱账号。需要确认可以收到验证码，需要在第二项中使用
 
 3、登录后，可以在页面上查看并选择适合自己的套餐去购买。
 
-此处我选择了 按流量计费 的套餐，298，只要他们开着，就可以一直用下去。我和小伙伴们拼单了，相对更划算一些，毕竟按照用量走嘛（拼单一个月 6 r，好处就是就算他们关了，还有其他机场及时作为补充）
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="https://ai.feishu.cn/space/api/box/stream/download/asynccode/?code=YjcxYTNlYjM5MjVkYWFiMmQyMzdhYzQyOGJiMGJjODNfdGcwUHVRZ1dKVVkwb1UxUndiUm9PTFpOSmwxZHlwU21fVG9rZW46Vld6WWJEbHRkb1QweDF4T3lOSWNKZWtubkVoXzE3NjQ5OTQ2Njk6MTc2NDk5ODI2OV9WNA" alt=""><figcaption></figcaption></figure>
+此处我选择了 按流量计费 的套餐，298，只要他们开着，就可以一直用下去。我和小伙伴们拼单了，相对更划算一些，毕竟按照用量走嘛（拼单一个月 6 r，好处就是就算他们关了，还有其他机场及时作为补充）
 
 4、下单后，可以进入**使用文档** 部分，这里有更详细的，相关平台的教程。包括 IOS，会贴心提供已购买必要软件 `shadowrocket` 的美区账号，可以在 APP store 中登录账号并直接下载软件。
 
+<figure><img src="../.gitbook/assets/PixPin_2025-12-07_10-14-11.png" alt=""><figcaption></figcaption></figure>
+
 5、在首页，可以通过点击 `一键订阅` 按键，将订阅导入 clash for Windows。如果你正在使用的设备是Windows 系统的电脑的话。\*(此处更推荐 [clash verge](https://github.com/Clash-Verge-rev/clash-verge-rev/releases))
 
-<figure><img src="https://ai.feishu.cn/space/api/box/stream/download/asynccode/?code=MzRjMjlmNjE0OGI0YmEzZDdmODIzN2Y1NzM5OTEyZTNfU1FhbWNOb3BEVWpKYTE4R0JydUFJVEVFemU2d1BvZ2dfVG9rZW46Q0NwVGJmMWRLb3hjN3B4WGFPbGNyZXN5bmxmXzE3NjQ5OTQ2Njk6MTc2NDk5ODI2OV9WNA" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/PixPin_2025-12-07_10-14-43.png" alt=""><figcaption></figcaption></figure>
 
 {% file src="../.gitbook/assets/PixPin_2025-12-05_21-41-08.mp4" %}
 
 Clash Verge 的 Windows 界面如下：
 
-<figure><img src="https://ai.feishu.cn/space/api/box/stream/download/asynccode/?code=OTZmYjk4MWI3ZjY1ODliOGFjNjRkZDRmZDQyNWE1NThfN3haODBBOFFLTEtUUkFlMDZxeGNyeHk4SW1Mdm1yRTRfVG9rZW46Q1VRTWJSYVFkb0V2TEV4Qm9LVWMzaXZibnJoXzE3NjQ5OTQ2Njk6MTc2NDk5ODI2OV9WNA" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/PixPin_2025-12-07_10-15-16.png" alt=""><figcaption></figcaption></figure>
 
 首页中，系统代理 选项需要打开。不打开连接不上
 
-<figure><img src="https://ai.feishu.cn/space/api/box/stream/download/asynccode/?code=MWU0YzhlZGJmZDZjZmQ0NWJiYzEyMjczZTcyODFmMzlfSHMzQXZhamhDbE55MzFkanBlUlB6aWRTMEZTTkcxQjVfVG9rZW46UkR4bGJKak8yb0huWVR4b0VjcGNIUjhWbmdlXzE3NjQ5OTQ2Njk6MTc2NDk5ODI2OV9WNA" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="https://ai.feishu.cn/space/api/box/stream/download/asynccode/?code=YmI4MmExZDFhMThmZTJlMmE3MzliZjVlNWRiZGNlZDZfN3NHMnAyR0NxMTA3QWo1QjFaYWxOaGprNklBdFdSbHBfVG9rZW46SnlrbWI0RlQ5b2ticlp4UUV0MWNrWHZjbllmXzE3NjQ5OTQ2Njk6MTc2NDk5ODI2OV9WNA" alt=""><figcaption></figcaption></figure>
-
 1. 可以考虑开启的有： 开机启动。其他的可以忽略，保持默认
 
-<figure><img src="https://ai.feishu.cn/space/api/box/stream/download/asynccode/?code=NDU5ODM1ZTcwOGYyZDNjM2Y0ODRiZTk2NzZjNjM1MjhfU1pBeWN3UnVzSGF1MlQ4NFQzY0ZBV1U1a3Y0Tnc2eWtfVG9rZW46S0ZkemI2Wm4zb0xQcHl4ZFYxdGNyWTBWbmRkXzE3NjQ5OTQ2Njk6MTc2NDk5ODI2OV9WNA" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/PixPin_2025-12-07_10-15-55.png" alt=""><figcaption></figcaption></figure>
 
 ### 附录
 
