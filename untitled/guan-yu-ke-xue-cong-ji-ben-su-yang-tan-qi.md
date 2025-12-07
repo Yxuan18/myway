@@ -80,8 +80,12 @@ https://www.clashverge.dev/guide/quickstart.html
 
 4. Clashmi 导入链接 504 ，怎么办
 
-![](https://ai.feishu.cn/space/api/box/stream/download/asynccode/?code=ZDY2Y2UwNmU0NTIzMjIxYzEzZjkwOTQ3NzkyOTg4NmNfeFBWT0VRdlJyejVWNDdvVEZIZ2lpTzhEOVFpWEJkcGJfVG9rZW46WEFHU2JNZ1Vhb0QyWTh4U3ltVmNNcExEblRlXzE3NjQ5OTQ2Njk6MTc2NDk5ODI2OV9WNA)![](https://ai.feishu.cn/space/api/box/stream/download/asynccode/?code=NmQyMDhjY2I3NmI0MjIyNTc1ZmFhNmIwMzNhMzlmYmJfNncwTnVXYlM4blZXZ3hrZ2Q5Q25wMGVtemloakpVdHNfVG9rZW46RDNWYWI2NExpbzlmNU54cUVIWGN3aTRublhwXzE3NjQ5OTQ2Njk6MTc2NDk5ODI2OV9WNA)
+<figure><img src="../.gitbook/assets/d2363c68eac7761865a133ee4985eac2.jpg" alt="" width="375"><figcaption></figcaption></figure>
 
-更改 UserAgent 为 clash-verge/v2.4.3clash-verge/v2.4.3
+更改 UserAgent 为 clash-verge/v2.4.3
+
+clash-verge/v2.4.3
+
+<figure><img src="../.gitbook/assets/ba18cc331d5b568d420e60ef7ece736f.jpg" alt="" width="375"><figcaption></figcaption></figure>
 
 然后，再次导入链接即可<br>
