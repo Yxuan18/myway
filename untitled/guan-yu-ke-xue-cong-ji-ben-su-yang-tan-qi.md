@@ -96,4 +96,8 @@ clash-verge/v2.4.3
 
 <div align="left"><figure><img src="../.gitbook/assets/PixPin_2025-12-10_19-52-50.png" alt="Windows" width="234"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/19f3a3208abc156ac3147fd131a24ee4.jpg" alt="" width="375"><figcaption></figcaption></figure></div>
 
+参考链接： [https://blog.lucyqin.cn/?p=1874#h36](https://blog.lucyqin.cn/?p=1874#h36)
+
+
+
 <br>
