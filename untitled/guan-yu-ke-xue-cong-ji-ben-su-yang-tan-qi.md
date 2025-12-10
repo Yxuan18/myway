@@ -80,12 +80,20 @@ https://www.clashverge.dev/guide/quickstart.html
 
 4. Clashmi 导入链接 504 ，怎么办
 
-<figure><img src="../.gitbook/assets/d2363c68eac7761865a133ee4985eac2.jpg" alt="" width="375"><figcaption></figcaption></figure>
+<div><figure><img src="../.gitbook/assets/d2363c68eac7761865a133ee4985eac2.jpg" alt="" width="375"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/ba18cc331d5b568d420e60ef7ece736f.jpg" alt="" width="375"><figcaption></figcaption></figure></div>
 
 更改 UserAgent 为 clash-verge/v2.4.3
 
 clash-verge/v2.4.3
 
-<figure><img src="../.gitbook/assets/ba18cc331d5b568d420e60ef7ece736f.jpg" alt="" width="375"><figcaption></figcaption></figure>
+然后，再次导入链接即可
 
-然后，再次导入链接即可<br>
+5. 关于 DNS覆写
+
+当我们使用 Clash 的一些机场去访问一些网站的时候，可能遇到访问不了的情况。如 GitHub。而切换到别的机场的时候，就可以访问。此时我们就会去怀疑，是不是这个机场有问题呢？
+
+可能，这是因为我们的 DNS 在此刻还是被污染的状态，那么，我们只要打开 DNS覆写 的功能，就可以访问了。如图所示：
+
+<div align="left"><figure><img src="../.gitbook/assets/PixPin_2025-12-10_19-52-50.png" alt="Windows" width="234"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/19f3a3208abc156ac3147fd131a24ee4.jpg" alt="" width="375"><figcaption></figcaption></figure></div>
+
+<br>
