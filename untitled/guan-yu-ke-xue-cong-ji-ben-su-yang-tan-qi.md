@@ -27,6 +27,8 @@ KXSW(科学上网)，以下简称 `联网` ，一向都是一个很敏感的话�
 
 这里，以 八戒 为例（因为自己一直有在用 GPT ，这家真的很稳定，所以首选它了
 
+### 机场部分
+
 1、打开网站，注册账号。链接放在右侧：https://bajie.pw/#/register?code=Wv7FGsAe
 
 上面的如果不行，可访问下面的网页：https://bajie.la/register?aff=Wv7FGsAe
@@ -51,6 +53,8 @@ KXSW(科学上网)，以下简称 `联网` ，一向都是一个很敏感的话�
 
 {% file src="../.gitbook/assets/PixPin_2025-12-05_21-41-08.mp4" %}
 
+### WINDOWS(MAC 同理)
+
 Clash Verge 的 Windows 界面如下：
 
 <figure><img src="../.gitbook/assets/PixPin_2025-12-07_10-15-16.png" alt=""><figcaption></figcaption></figure>
@@ -61,6 +65,20 @@ Clash Verge 的 Windows 界面如下：
 
 <figure><img src="../.gitbook/assets/PixPin_2025-12-07_10-15-55.png" alt=""><figcaption></figcaption></figure>
 
+### 移动端
+
+如果你是安卓手机，这里推荐 Clash Meta
+
+{% embed url="https://github.com/MetaCubeX/ClashMetaForAndroid/releases" %}
+
+进入到网页以后，选择合适自己的版本下载（比如我会选择 V8A。 小米比较新款的手机是 ARM64）
+
+<figure><img src="../.gitbook/assets/PixPin_20260611_212826.png" alt=""><figcaption></figcaption></figure>
+
+下载好以后，安装 APK 文件 即可使用。（如果遇到类似华为或者小米提示存在风险，自行去知乎，小红书寻找教程）
+
+
+
 ### 附录
 
 1. 也会觉得，另一款的机场也是很适用的。官网链接为：[MDOOS](http://mdoos.pw/)
@@ -68,15 +86,11 @@ Clash Verge 的 Windows 界面如下：
 
 https://www.clashverge.dev/guide/quickstart.html
 
-3. 那么，手机呢？
-
-如果你是 IPhone，有一个 clash 也可以使用：https://apps.apple.com/us/app/clash-mi/id6744321968?l=zh-Hans-CN
+3. 如果你是 IPhone，有一个 clash 也可以使用：https://apps.apple.com/us/app/clash-mi/id6744321968?l=zh-Hans-CN
 
 或者，也可以使用小火箭：shadowrocket。
 
 此时可以在机场的网页里找到共享的美区ID，下载该应用，下载后从 App Store 里退出即可
-
-如果是安卓，可以试试 clash Meta for Android：https://github.com/MetaCubeX/ClashMetaForAndroid/releases/download/v2.11.20/cmfa-2.11.20-meta-arm64-v8a-release.apk
 
 4. Clashmi 导入链接 504 ，怎么办
 
