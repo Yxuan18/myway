@@ -77,7 +77,15 @@ Clash Verge 的 Windows 界面如下：
 
 下载好以后，安装 APK 文件 即可使用。（如果遇到类似华为或者小米提示存在风险，自行去知乎，小红书寻找教程）
 
+### IOS
 
+你可以使用 Clash mi，软件大概长这个样子：
+
+<figure><img src="../.gitbook/assets/PixPin_20260726_213547.png" alt=""><figcaption></figcaption></figure>
+
+打开软件后，可以点击页面中的加号，便可以在最终的输入框里输入自己的订阅链接地址，然后点击右上角对号即可
+
+![](../.gitbook/assets/PixPin_20260726_213800.gif)
 
 ### 附录
 
