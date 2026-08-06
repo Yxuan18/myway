@@ -91,19 +91,26 @@ Clash Verge→ 设置→ 全局扩展覆写配置
 默认配置：
 
 ```
-profile:  store-selected: true
+profile:
+  store-selected: true
 ```
 
 修改为：
 
 ```
-profile:  store-selected: truerules:  - DOMAIN-SUFFIX,example.com,DIRECT
+profile:
+  store-selected:
+   truerules:
+     - DOMAIN-SUFFIX,example.com,DIRECT
 ```
 
 例如：
 
 ```
-profile:  store-selected: truerules:  - DOMAIN-SUFFIX,github.com,DIRECT  - DOMAIN-SUFFIX,company.com,DIRECT
+profile:
+  store-selected: truerules:
+    - DOMAIN-SUFFIX,github.com,DIRECT
+    - DOMAIN-SUFFIX,company.com,DIRECT
 ```
 
 ***
@@ -137,7 +144,9 @@ DOMAIN-SUFFIX,example.com,DIRECT
 可以匹配：
 
 ```
-example.comwww.example.comapi.example.com
+example.com
+www.example.com
+api.example.com
 ```
 
 通常更推荐使用 `DOMAIN-SUFFIX`。
@@ -151,7 +160,9 @@ Clash 规则按照从上到下匹配。
 例如：
 
 ```
-rules:  - DOMAIN-SUFFIX,example.com,DIRECT  - MATCH,Proxy
+rules:
+  - DOMAIN-SUFFIX,example.com,DIRECT
+  - MATCH,Proxy
 ```
 
 访问：
@@ -169,7 +180,9 @@ example.com ↓匹配第一条规则 ↓DIRECT
 如果顺序反过来：
 
 ```
-rules:  - MATCH,Proxy  - DOMAIN-SUFFIX,example.com,DIRECT
+rules:
+  - MATCH,Proxy
+  - DOMAIN-SUFFIX,example.com,DIRECT
 ```
 
 那么所有流量都会提前匹配 Proxy。
@@ -203,7 +216,8 @@ Fake IP 过滤只负责：
 只需要：
 
 ```
-rules:  - DOMAIN-SUFFIX,example.com,DIRECT
+rules:
+  - DOMAIN-SUFFIX,example.com,DIRECT
 ```
 
 即可。
@@ -223,7 +237,9 @@ rules:  - DOMAIN-SUFFIX,example.com,DIRECT
 可以额外加入：
 
 ```
-dns:  fake-ip-filter:    - "*.example.com"
+dns:
+  fake-ip-filter:
+      - "*.example.com"
 ```
 
 作用：
@@ -247,7 +263,8 @@ dns:  fake-ip-filter:    - "*.example.com"
 例如：
 
 ```
-nas.local ↓192.168.1.10
+nas.local
+ ↓192.168.1.10
 ```
 
 解决：
@@ -289,7 +306,12 @@ example.com ↓DIRECT
 对于大多数用户：
 
 ```
-profile:  store-selected: truerules:  - DOMAIN-SUFFIX,your-site.com,DIRECT  - DOMAIN-SUFFIX,another-site.com,DIRECT
+profile:
+  store-selected: true
+
+rules:
+  - DOMAIN-SUFFIX,your-site.com,DIRECT
+  - DOMAIN-SUFFIX,another-site.com,DIRECT
 ```
 
 即可。
@@ -301,7 +323,8 @@ profile:  store-selected: truerules:  - DOMAIN-SUFFIX,your-site.com,DIRECT  - DO
 打开：
 
 ```
-Clash Verge→ 日志
+Clash Verge
+→ 日志
 ```
 
 访问目标网站。
