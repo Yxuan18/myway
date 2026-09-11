@@ -22,6 +22,7 @@
 ***
 
 * [大概是指北吧](untitled/README.md)
+  * [CCUP](untitled/ccup.md)
   * [关于科学，从基本素养谈起](untitled/guan-yu-ke-xue-cong-ji-ben-su-yang-tan-qi.md)
   * [jiqiao](untitled/jiqiao.md)
   * [google play & other app](untitled/google-play-and-other-app.md)
@@ -90,3 +91,5 @@
   * [Hengrui Medicine](withaithink/hengrui-medicine.md)
   * [Pando or|and ANATM](withaithink/anatmp.md)
   * [Bubble Mart 2024–2025: Performance, Share Price, and Inequality Impact](withaithink/bubble-mart-2024-2025-performance-share-price-and-inequality-impact.md)
+* [CCup](ccup.md)
+* [CCup](ccup-1.md)
