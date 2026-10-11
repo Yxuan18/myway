@@ -239,14 +239,6 @@ CLI，是指命令行下面的 Claude code，即 Claude code CLI，通常长这�
 
 <details>
 
-<summary>自行安装 nodejs？</summary>
-
-这个也挺好安装的，可以先试试（我这里没有没安装的环境，就不能演示了。
-
-</details>
-
-<details>
-
 <summary>如何安装 cc 的 cli</summary>
 
 安装 NODEJS，安装好以后用文档开头的命令即可安装。
@@ -675,12 +667,70 @@ cli 就是在终端里敲，开销最小、启动最快、占用资源最少，�
 别纠结设备、别怕终端——先用起来，才是这个时代最重要的事。
 ```
 
+## CC-Switch 配置计费
+
+配置好以后的效果如图所示：
+
+<figure><img src=".gitbook/assets/PixPin_20261011_134153.png" alt=""><figcaption></figcaption></figure>
+
+首先，我们可以点击 配置用量查询，然后，可以点击 启用用量查询，接着可以点击 通用模板 或 自定义
+
+<div><figure><img src=".gitbook/assets/PixPin_20261011_134349.png" alt=""><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/PixPin_20261011_140319.png" alt=""><figcaption></figcaption></figure></div>
+
+接下来，只要将中转站的相关内容填写到下面的框体中即可，代码我放下面：
+
+```js
+({
+  request: {
+    url: "{{baseUrl}}/api/user/key-info",
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      "User-Agent": "cc-switch/1.0"
+    },
+    body: JSON.stringify({
+      "key": "{{apiKey}}"
+    })
+  },
+  extractor: function(response) {
+    // 接口返回code不为200直接判定失效
+    if (response.code !== 200) {
+      return {
+        isValid: false,
+        invalidMessage: `接口请求失败，code:${response.code}`
+      }
+    }
+    const data = response.data;
+    // status=1 密钥正常
+    const isValid = data.status === 1;
+    let invalidMessage = "";
+    if (!isValid) {
+      invalidMessage = `密钥状态：${data.status_text || "未知状态"}`;
+    }
+    return {
+      isValid: isValid,
+      invalidMessage: invalidMessage,
+      remaining: data.total_quota_usd - data.used_quota_usd,
+      unit: "USD",
+      planName: data.product_type,
+      total: data.total_quota_usd,
+      used: data.used_quota_usd,
+      extra: `请求次数:${data.request_count}, Token总量:${data.total_tokens}`
+    };
+  }
+})
+```
+
+<figure><img src=".gitbook/assets/PixPin_20261011_140641 (1).png" alt=""><figcaption></figcaption></figure>
+
+填入后，点击测试脚本，若显示通过，则可以 保存配置
+
 ## 疑问解答-联系一轩
 
 如有疑问，可以加一轩微信。添加备注：中转站过来的
 
-![d523a1dbdf1d0bd10738a939f4f9e672.jpg](.gitbook/assets/imgsd523a1dbdf1d0bd10738a939f4f9e672.jpg)
+<img src=".gitbook/assets/imgsbb1a1b81303cde4f996fdcc0303f2137.jpg" alt="bb1a1b81303cde4f996fdcc0303f2137.jpg" width="188">
 
-![bb1a1b81303cde4f996fdcc0303f2137.jpg](.gitbook/assets/imgsbb1a1b81303cde4f996fdcc0303f2137.jpg)
+<div align="center"><img src=".gitbook/assets/imgsd523a1dbdf1d0bd10738a939f4f9e672.jpg" alt="d523a1dbdf1d0bd10738a939f4f9e672.jpg" width="188"></div>
 
 另外，欢迎关注一轩的微信公众号：浑语阁
