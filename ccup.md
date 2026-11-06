@@ -89,17 +89,19 @@ Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 
 ## 回到中转站的步骤
 
-https【: 】//rsxermu666【.】cn/usage
+~~https://rsxermu666.cn/usage~~
+
+https://api.orbit1.lat/query
 
 ### Start
 
 刚开始我会给这样一个链接，你只要打开浏览器，然后访问，就会看到这样的界面：
 
-![PixPin\_20260611\_205613.png](.gitbook/assets/imgsPixPin_20260611_205613.png)
+<figure><img src=".gitbook/assets/PixPin_20261106_211840.png" alt=""><figcaption><p>新的站点</p></figcaption></figure>
 
-![PixPin\_20260611\_205736.png](.gitbook/assets/imgsPixPin_20260611_205736.png)
 
-在这个界面上，你需要输入我提供给你的激活码；之后点击 提取 Key。
+
+在这个界面上，你需要输入我提供给你的激活码；之后点击 查询。查询成功后，会显示上图图二
 
 若显示提取成功，点击页面左侧的“使用教程”，出现图二。
 
