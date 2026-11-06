@@ -17,7 +17,7 @@
 
 _填写页面示例：_
 
-<div><figure><img src=".gitbook/assets/PixPin_2025-12-05_21-10-20.png" alt=""><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/PixPin_2025-12-05_21-25-56.png" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src=".gitbook/assets/PixPin_2025-12-05_21-10-20.webp" alt=""><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/PixPin_2025-12-05_21-25-56.webp" alt=""><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
@@ -27,17 +27,17 @@ _填写页面示例：_
 
 * **邮箱验证**：前往邮箱查收 Apple 验证码
 
-<figure><img src=".gitbook/assets/PixPin_2025-12-05_21-26-23.png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/PixPin_2025-12-05_21-26-23.webp" alt="" width="188"><figcaption></figcaption></figure>
 
 * **手机号验证**：手机收到短信验证码后输入即可
 
-<figure><img src=".gitbook/assets/PixPin_2025-12-05_21-26-36.png" alt="" width="178"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/PixPin_2025-12-05_21-26-36.webp" alt="" width="178"><figcaption></figcaption></figure>
 
 验证成功后，将出现 Apple 账户创建成功页面。
 
 _验证页面示例：_
 
-<figure><img src=".gitbook/assets/PixPin_2025-12-05_21-26-49.png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/PixPin_2025-12-05_21-26-49.webp" alt="" width="188"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -45,7 +45,7 @@ _验证页面示例：_
 
 注册完成后，进入账户后台：
 
-<figure><img src=".gitbook/assets/PixPin_2025-12-05_22-23-00.png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/PixPin_2025-12-05_22-23-00.webp" alt="" width="188"><figcaption></figcaption></figure>
 
 打开 **「付款与配送」** → 点击 **「添加地址」**
 
@@ -69,14 +69,14 @@ https://1ktools.com/zh-cn/tools/developer/us-tax-free-address-generator
 {% hint style="info" %}
 _建议使用 Alaska 地址，最稳定且无税收。_
 
-<img src=".gitbook/assets/PixPin_2025-12-05_21-29-00.png" alt="" data-size="original">
+<img src=".gitbook/assets/PixPin_2025-12-05_21-29-00.webp" alt="" data-size="original">
 {% endhint %}
 
 填写完毕后点击 **「保存更改」** 即可。
 
 _地址填写示例：_
 
-<figure><img src=".gitbook/assets/PixPin_2025-12-05_21-29-19.png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/PixPin_2025-12-05_21-29-19.webp" alt="" width="188"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -88,7 +88,7 @@ iPhone 上退出原有账户：
 
 前往「App Store」 → 「点击头像」 → 「退出登录」
 
-<figure><img src=".gitbook/assets/920141a4812659dc08f1aa65cdfbad66.jpg" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/920141a4812659dc08f1aa65cdfbad66.webp" alt="" width="188"><figcaption></figcaption></figure>
 
 使用刚注册好的 **美区 Apple ID** 登录。
 
@@ -96,11 +96,11 @@ iPhone 上退出原有账户：
 
 进入设置，如下所示：
 
-<div><figure><img src=".gitbook/assets/PixPin_20260721_233921.png" alt="" width="280"><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/PixPin_20260721_234026.png" alt="" width="145"><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/PixPin_20260721_234058.png" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src=".gitbook/assets/PixPin_20260721_233921.webp" alt="" width="280"><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/PixPin_20260721_234026.webp" alt="" width="145"><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/PixPin_20260721_234058.webp" alt=""><figcaption></figcaption></figure></div>
 
 ### 登录
 
-<div><figure><img src=".gitbook/assets/PixPin_20260721_234222.png" alt="" width="144"><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/PixPin_20260721_234249.png" alt="" width="146"><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/PixPin_20260721_234325.png" alt="" width="145"><figcaption></figcaption></figure></div>
+<div><figure><img src=".gitbook/assets/PixPin_20260721_234222.webp" alt="" width="144"><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/PixPin_20260721_234249.webp" alt="" width="146"><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/PixPin_20260721_234325.webp" alt="" width="145"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
@@ -110,7 +110,7 @@ iPhone 上退出原有账户：
 
 _美区 App Store 页面示例：_
 
-<figure><img src=".gitbook/assets/1d3a8a3be42446129a1c7d5410461738.jpg" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/1d3a8a3be42446129a1c7d5410461738.webp" alt="" width="188"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -118,9 +118,9 @@ _美区 App Store 页面示例：_
 
 此处使用渠道为：支付宝的 pockytshop 小程序（可支付宝登录）
 
-<div><figure><img src=".gitbook/assets/6887b4ee919bc5b9a578d41aad92fcc2.jpg" alt="" width="188"><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/9a6d2bbdf0312a882e49edc6f83e431a.jpg" alt="" width="188"><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/f64d12a8190f2562c19892521a24a0c2.jpg" alt="" width="188"><figcaption></figcaption></figure></div>
+<div><figure><img src=".gitbook/assets/6887b4ee919bc5b9a578d41aad92fcc2.webp" alt="" width="188"><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/9a6d2bbdf0312a882e49edc6f83e431a.webp" alt="" width="188"><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/f64d12a8190f2562c19892521a24a0c2.webp" alt="" width="188"><figcaption></figcaption></figure></div>
 
-<figure><img src=".gitbook/assets/image (127).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (127).webp" alt=""><figcaption></figcaption></figure>
 
 
 

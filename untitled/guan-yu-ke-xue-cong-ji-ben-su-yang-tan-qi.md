@@ -33,23 +33,23 @@ KXSW(科学上网)，以下简称 `联网` ，一向都是一个很敏感的话�
 
 上面的如果不行，可访问下面的网页：https://bajie.la/register?aff=Wv7FGsAe
 
-<figure><img src="../.gitbook/assets/PixPin_2025-12-07_10-12-05.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/PixPin_2025-12-07_10-12-05.webp" alt=""><figcaption></figcaption></figure>
 
 2、按照网站上的提示，输入自己的邮箱账号。需要确认可以收到验证码，需要在第二项中使用
 
 3、登录后，可以在页面上查看并选择适合自己的套餐去购买。
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.webp" alt=""><figcaption></figcaption></figure>
 
 此处我选择了 按流量计费 的套餐，298，只要他们开着，就可以一直用下去。我和小伙伴们拼单了，相对更划算一些，毕竟按照用量走嘛（拼单一个月 6 r，好处就是就算他们关了，还有其他机场及时作为补充）
 
 4、下单后，可以进入**使用文档** 部分，这里有更详细的，相关平台的教程。包括 IOS，会贴心提供已购买必要软件 `shadowrocket` 的美区账号，可以在 APP store 中登录账号并直接下载软件。
 
-<figure><img src="../.gitbook/assets/PixPin_2025-12-07_10-14-11.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/PixPin_2025-12-07_10-14-11.webp" alt=""><figcaption></figcaption></figure>
 
 5、在首页，可以通过点击 `一键订阅` 按键，将订阅导入 clash for Windows。如果你正在使用的设备是Windows 系统的电脑的话。\*(此处更推荐 [clash verge](https://github.com/Clash-Verge-rev/clash-verge-rev/releases))
 
-<figure><img src="../.gitbook/assets/PixPin_2025-12-07_10-14-43.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/PixPin_2025-12-07_10-14-43.webp" alt=""><figcaption></figcaption></figure>
 
 {% file src="../.gitbook/assets/PixPin_2025-12-05_21-41-08.mp4" %}
 
@@ -57,13 +57,13 @@ KXSW(科学上网)，以下简称 `联网` ，一向都是一个很敏感的话�
 
 Clash Verge 的 Windows 界面如下：
 
-<figure><img src="../.gitbook/assets/PixPin_2025-12-07_10-15-16.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/PixPin_2025-12-07_10-15-16.webp" alt=""><figcaption></figcaption></figure>
 
 首页中，系统代理 选项需要打开。不打开连接不上
 
 1. 可以考虑开启的有： 开机启动。其他的可以忽略，保持默认
 
-<figure><img src="../.gitbook/assets/PixPin_2025-12-07_10-15-55.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/PixPin_2025-12-07_10-15-55.webp" alt=""><figcaption></figcaption></figure>
 
 ### 移动端
 
@@ -73,7 +73,7 @@ Clash Verge 的 Windows 界面如下：
 
 进入到网页以后，选择合适自己的版本下载（比如我会选择 V8A。 小米比较新款的手机是 ARM64）
 
-<figure><img src="../.gitbook/assets/PixPin_20260611_212826.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/PixPin_20260611_212826.webp" alt=""><figcaption></figcaption></figure>
 
 下载好以后，安装 APK 文件 即可使用。（如果遇到类似华为或者小米提示存在风险，自行去知乎，小红书寻找教程）
 
@@ -81,7 +81,7 @@ Clash Verge 的 Windows 界面如下：
 
 你可以使用 Clash mi，软件大概长这个样子：
 
-<figure><img src="../.gitbook/assets/PixPin_20260726_213547.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/PixPin_20260726_213547.webp" alt=""><figcaption></figcaption></figure>
 
 打开软件后，可以点击页面中的加号，便可以在最终的输入框里输入自己的订阅链接地址，然后点击右上角对号即可
 
@@ -102,7 +102,7 @@ https://www.clashverge.dev/guide/quickstart.html
 
 4. Clashmi 导入链接 504 ，怎么办
 
-<div><figure><img src="../.gitbook/assets/d2363c68eac7761865a133ee4985eac2.jpg" alt="" width="375"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/ba18cc331d5b568d420e60ef7ece736f.jpg" alt="" width="375"><figcaption></figcaption></figure></div>
+<div><figure><img src="../.gitbook/assets/d2363c68eac7761865a133ee4985eac2.webp" alt="" width="375"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/ba18cc331d5b568d420e60ef7ece736f.webp" alt="" width="375"><figcaption></figcaption></figure></div>
 
 更改 UserAgent 为 clash-verge/v2.4.3
 
@@ -116,11 +116,11 @@ clash-verge/v2.4.3
 
 可能，这是因为我们的 DNS 在此刻还是被污染的状态，那么，我们只要打开 DNS覆写 的功能，就可以访问了。如图所示：
 
-<div align="left"><figure><img src="../.gitbook/assets/PixPin_2025-12-10_19-52-50.png" alt="Windows" width="234"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/19f3a3208abc156ac3147fd131a24ee4.jpg" alt="" width="375"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/PixPin_2025-12-10_19-52-50.webp" alt="Windows" width="234"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/19f3a3208abc156ac3147fd131a24ee4.webp" alt="" width="375"><figcaption></figcaption></figure></div>
 
 6. 导入旧的订阅链接出错怎么办？
 
-<div data-full-width="true"><figure><img src="../.gitbook/assets/PixPin_2026-03-09_22-05-13.png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="true"><figure><img src="../.gitbook/assets/PixPin_2026-03-09_22-05-13.webp" alt=""><figcaption></figcaption></figure></div>
 
 若出现类似错误，可尝试重新进入梯子链接，导出新的订阅链接并重新尝试
 
@@ -132,7 +132,7 @@ clash-verge/v2.4.3
 
 贴一段DNS的配置，可以在后期自行添加到YAML文件里
 
-<figure><img src="../.gitbook/assets/PixPin_2025-12-10_21-18-29.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/PixPin_2025-12-10_21-18-29.webp" alt=""><figcaption></figcaption></figure>
 
 {% code overflow="wrap" lineNumbers="true" fullWidth="false" %}
 ```yaml

@@ -6,15 +6,15 @@ description: how to install app when 国内应用商店没有
 
 如果是小米，你可以直接在应用商店中搜索 谷歌商店，然后下载。如图：
 
-<div data-full-width="false"><figure><img src="../.gitbook/assets/ca361f84057b3f6f0e1a105a567d738.jpg" alt="" width="188"><figcaption></figcaption></figure></div>
+<div data-full-width="false"><figure><img src="../.gitbook/assets/ca361f84057b3f6f0e1a105a567d738.webp" alt="" width="188"><figcaption></figcaption></figure></div>
 
 安装成功后，可以通过 联网  的方式打开，安装想要安装的软件，如 Instgram, X ,spotify 等软件。
 
-<figure><img src="../.gitbook/assets/72197350a617b5af2c14bdf9627772b.jpg" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/72197350a617b5af2c14bdf9627772b.webp" alt="" width="188"><figcaption></figcaption></figure>
 
 也可以安装 chatGPT。只需要在里面像安装 QQ，微信一样，只要搜索出来，点击 `安装` 即可
 
-<figure><img src="../.gitbook/assets/image (124).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (124).webp" alt=""><figcaption></figcaption></figure>
 
 **注意辨认：**
 

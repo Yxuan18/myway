@@ -16,10 +16,10 @@
 
 实名认证在 TIGA-SAFE 中进行。机器人号码：7000104225. 可以添加到自己的通讯录。\
 打开聊天界面后如图所示：\
-![](<../.gitbook/assets/image (2).png>)
+![](<../.gitbook/assets/image (2).webp>)
 
 进入机器人后，从左到右依次是：交易，我的，个人设置(可以在这实名认证)，交易页面\
-<img src="../.gitbook/assets/image (3).png" alt="首页，可以在这里买USDT，BOX等" data-size="original">![](<../.gitbook/assets/image (4).png>)![](<../.gitbook/assets/image (5).png>)![](<../.gitbook/assets/image (6).png>)
+<img src="../.gitbook/assets/image (3).webp" alt="首页，可以在这里买USDT，BOX等" data-size="original">![](<../.gitbook/assets/image (4).webp>)![](<../.gitbook/assets/image (5).webp>)![](<../.gitbook/assets/image (6).webp>)
 
 一般来讲，完成 **高级认证** 后，就可以进行购买 USDT了。没有别的什么需求的话，视频认证不去做也行
 
@@ -34,7 +34,7 @@
 进入 ExinOne 后，还是点击 消息栏 中消息框右侧第一个图标(长得像机器人那个，也可以像 猪鼻子)
 
 点击进入后，为如下界面：\
-![](<../.gitbook/assets/image (7).png>)\
+![](<../.gitbook/assets/image (7).webp>)\
 1、 首页中，可以通过自己收藏的方式，选中感兴趣的币种，便于随时查看价格的涨跌\
 2、 行情 页面，没用过，可以自行探索\
 3、 交易，估计是可以及时交易，没用过那里的功能。\
@@ -43,12 +43,12 @@
 
 #### 以下，为定投界面的模样：
 
-<figure><img src="../.gitbook/assets/image (8).png" alt="" width="144"><figcaption><p>定投界面</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8).webp" alt="" width="144"><figcaption><p>定投界面</p></figcaption></figure>
 
 #### how 创建定投
 
 如上图，点击 \`创建定投\`，进入页面：\
-<img src="../.gitbook/assets/image (9).png" alt="" data-size="original">![](<../.gitbook/assets/image (11).png>)
+<img src="../.gitbook/assets/image (9).webp" alt="" data-size="original">![](<../.gitbook/assets/image (11).webp>)
 
 \
 当前界面中：\
@@ -57,7 +57,7 @@
 3、可同时将许多种币添加到定投计划中，也可以考虑创建许多的定投计划。\
 4、点击完下一步后，定投计划最终会出现在自己的定投列表中，如下图所示：
 
-![](../.gitbook/assets/38b7376c039cc8356a7b8aa90c767d9.jpg)![](<../.gitbook/assets/image (12).png>)\
+![](../.gitbook/assets/38b7376c039cc8356a7b8aa90c767d9.webp)![](<../.gitbook/assets/image (12).webp>)\
 右图中，即为最新添加的定投计划
 
 提示：**推荐打开 省心投 ，并将余额中的 USDT 存放到 省心投 中，可以像余额宝一样获得收益，也是 USDT**
@@ -70,7 +70,7 @@
 
 1.  钱包里的那一串数字是什么意思？<br>
 
-    <figure><img src="../.gitbook/assets/c0edc6845b8d67a97a5fad63c2ea0363.jpg" alt="" width="188"><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/c0edc6845b8d67a97a5fad63c2ea0363.webp" alt="" width="188"><figcaption></figcaption></figure>
 
 以上面的这张图为例，其中包含了上部中间的较大的数字，52.93
 
@@ -85,5 +85,5 @@
 
 {% embed url="https://support.mixin.one/zh/article/android-mixin-messenger-s83ghx/" %}
 
-![](../.gitbook/assets/PixPin_2025-12-06_12-33-02.png)\
+![](../.gitbook/assets/PixPin_2025-12-06_12-33-02.webp)\
 进入页面后，点击 APK 链接，即可下载并安装最新版软件。

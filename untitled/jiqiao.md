@@ -18,27 +18,27 @@ description: 当我们在使用 Clash Verge 的时候，也许会遇到一种情
 
 {% columns %}
 {% column %}
-<figure><img src="../.gitbook/assets/PixPin_20260806_215102.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/PixPin_20260806_215102.webp" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../.gitbook/assets/PixPin_20260806_215236.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/PixPin_20260806_215236.webp" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
 那我接下来该如何设置想要的网站业务直接连接呢？
 
-<figure><img src="../.gitbook/assets/PixPin_20260806_215811.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/PixPin_20260806_215811.webp" alt=""><figcaption></figcaption></figure>
 
 通过上图中，我们可以发现：使用的规则类型是 Domain Suffix，走的是 DIRECT。打开规则类型列表，我们会发现，这是域名后缀匹配；而在代理策略这一栏，也有很多选项
 
 {% columns %}
 {% column %}
-<figure><img src="../.gitbook/assets/PixPin_20260806_215948.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/PixPin_20260806_215948.webp" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../.gitbook/assets/PixPin_20260806_220023.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/PixPin_20260806_220023.webp" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -56,13 +56,13 @@ description: 当我们在使用 Clash Verge 的时候，也许会遇到一种情
 
 {% columns %}
 {% column %}
-<figure><img src="../.gitbook/assets/image (125).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (125).webp" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 
 {% column %}
 
 
-<figure><img src="../.gitbook/assets/PixPin_20260806_221809.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/PixPin_20260806_221809.webp" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
