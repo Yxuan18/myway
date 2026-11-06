@@ -24,7 +24,7 @@
 
 最近用到一个很不错的中转站，有快一个月的时间，用了差不多 9 亿的 token
 
-![PixPin\_20260624\_221721.png](.gitbook/assets/imgsPixPin_20260624_221721.png)
+![PixPin\_20260624\_221721.png](.gitbook/assets/imgsPixPin_20260624_221721.webp)
 
 那就涉及到一个 Claude Code 的安装，以及中转站配置的导入问题
 
@@ -34,15 +34,15 @@
 
 https://github.com/farion1231/cc-switch/releases
 
-![PixPin\_20260611\_201140.png](.gitbook/assets/imgsPixPin_20260611_201140.png)
+![PixPin\_20260611\_201140.png](.gitbook/assets/imgsPixPin_20260611_201140.webp)
 
-![PixPin\_20260611\_201222.png](.gitbook/assets/imgsPixPin_20260611_201222.png)
+![PixPin\_20260611\_201222.png](.gitbook/assets/imgsPixPin_20260611_201222.webp)
 
 可以去这个页面中下载安装，选择对应的文件下载即可。
 
 Windows 或者 MacOS 电话，可以往下看：
 
-![PixPin\_20260611\_205002.png](.gitbook/assets/imgsPixPin_20260611_205002.png)
+![PixPin\_20260611\_205002.png](.gitbook/assets/imgsPixPin_20260611_205002.webp)
 
 Windows 系统，可选择 `.msi` 结尾的安装；
 
@@ -52,7 +52,7 @@ MAC M 系列芯片可选择 `.dmg` 结尾的。单击即可下载。
 
 如何更新？
 
-![PixPin\_20260713\_195809.png](.gitbook/assets/imgsPixPin_20260713_195809.png)
+![PixPin\_20260713\_195809.png](.gitbook/assets/imgsPixPin_20260713_195809.webp)
 
 ## Claude code 安装
 
@@ -71,17 +71,17 @@ npm install -g @anthropic-ai/claude-code
 
 分别下载 Git，NodeJS。
 
-![PixPin\_20260612\_084737.png](.gitbook/assets/imgsPixPin_20260612_084737.png)
+![PixPin\_20260612\_084737.png](.gitbook/assets/imgsPixPin_20260612_084737.webp)
 
 https://git-scm.com/install/windows
 
-![PixPin\_20260612\_084920.png](.gitbook/assets/imgsPixPin_20260612_084920.png)
+![PixPin\_20260612\_084920.png](.gitbook/assets/imgsPixPin_20260612_084920.webp)
 
 https://nodejs.org/en/download
 
 如果 NPM 命令运行的时候出现了报错，可以试试：
 
-![PixPin\_20260713\_224304.png](.gitbook/assets/imgsPixPin_20260713_224304.png)
+![PixPin\_20260713\_224304.png](.gitbook/assets/imgsPixPin_20260713_224304.webp)
 
 ```
 Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
@@ -97,7 +97,7 @@ https://api.orbit1.lat/query
 
 刚开始我会给这样一个链接，你只要打开浏览器，然后访问，就会看到这样的界面：
 
-<figure><img src=".gitbook/assets/PixPin_20261106_211840.png" alt=""><figcaption><p>新的站点</p></figcaption></figure>
+<figure><img src=".gitbook/assets/PixPin_20261106_211840.webp" alt=""><figcaption><p>新的站点</p></figcaption></figure>
 
 
 
@@ -107,17 +107,17 @@ https://api.orbit1.lat/query
 
 到这里以后，默认你已经安装了 CC Switch。此时只需要点击页面当中的“一键导入配置”，浏览器会提醒是否打开 CC Switch，点击 是。接下来配置项就会出现在 CC Switch 中。
 
-![PixPin\_20260611\_205927.png](.gitbook/assets/imgsPixPin_20260611_205927.png)
+![PixPin\_20260611\_205927.png](.gitbook/assets/imgsPixPin_20260611_205927.webp)
 
 此时我们点击启用，系统便会将全局的 Claude 配置设置为刚才导入的配置：
 
-![PixPin\_20260611\_210108.png](.gitbook/assets/imgsPixPin_20260611_210108.png)
+![PixPin\_20260611\_210108.png](.gitbook/assets/imgsPixPin_20260611_210108.webp)
 
 （等到后期自己十分熟悉以后，可以点击启用按钮右面的编辑，去里面编辑对应的配置选项。如果自己想尝试一下，可以点击再用面的复制，先复制一份出来，去里面随便折腾）
 
-![PixPin\_20260612\_221650.png](.gitbook/assets/imgsPixPin_20260612_221650.png)
+![PixPin\_20260612\_221650.png](.gitbook/assets/imgsPixPin_20260612_221650.webp)
 
-![PixPin\_20260612\_221538.png](.gitbook/assets/imgsPixPin_20260612_221538.png)
+![PixPin\_20260612\_221538.png](.gitbook/assets/imgsPixPin_20260612_221538.webp)
 
 ### 继续使用（续费）
 
@@ -133,9 +133,9 @@ https://api.orbit1.lat/query
 
 将同类型的激活码输入弹出的窗口下方，并点击 确认续费 即可。
 
-![PixPin\_20260626\_153814.png](.gitbook/assets/imgsPixPin_20260626_153814.png)
+![PixPin\_20260626\_153814.png](.gitbook/assets/imgsPixPin_20260626_153814.webp)
 
-![PixPin\_20260626\_211034.png](.gitbook/assets/imgsPixPin_20260626_211034.png)
+![PixPin\_20260626\_211034.png](.gitbook/assets/imgsPixPin_20260626_211034.webp)
 {% endstep %}
 {% endstepper %}
 
@@ -235,7 +235,7 @@ CLI，是指命令行下面的 Claude code，即 Claude code CLI，通常长这�
 
 ![PixPin\_20260626\_211411.gif](.gitbook/assets/imgsPixPin_20260626_211411.gif)
 
-![PixPin\_20260624\_202105.png](.gitbook/assets/imgsPixPin_20260624_202105.png)
+![PixPin\_20260624\_202105.png](.gitbook/assets/imgsPixPin_20260624_202105.webp)
 
 </details>
 
@@ -271,7 +271,7 @@ cd ~/SEC/chat
 # 进入以后，再输入 claude ，点击回车，进入 claude code 界面
 ```
 
-![PixPin\_20260628\_221514.png](.gitbook/assets/imgsPixPin_20260628_221514.png)
+![PixPin\_20260628\_221514.png](.gitbook/assets/imgsPixPin_20260628_221514.webp)
 
 </details>
 
@@ -327,9 +327,9 @@ Claude 回答中断90%的情况是 **token 上限**导致的，直接回复”�
 
 ![PixPin\_20260801\_161357.gif](.gitbook/assets/imgsPixPin_20260801_161357.gif)
 
-![PixPin\_20260624\_220812.png](.gitbook/assets/imgsPixPin_20260624_220812.png)
+![PixPin\_20260624\_220812.png](.gitbook/assets/imgsPixPin_20260624_220812.webp)
 
-![PixPin\_20260702\_235348.png](.gitbook/assets/imgsPixPin_20260702_235348.png)
+![PixPin\_20260702\_235348.png](.gitbook/assets/imgsPixPin_20260702_235348.webp)
 {% endstep %}
 
 {% step %}
@@ -337,11 +337,11 @@ Claude 回答中断90%的情况是 **token 上限**导致的，直接回复”�
 
 回到 Claude code，可以通过 `/model` 命令切换模型。
 
-![PixPin\_20260624\_221107.png](.gitbook/assets/imgsPixPin_20260624_221107.png)
+![PixPin\_20260624\_221107.png](.gitbook/assets/imgsPixPin_20260624_221107.webp)
 
-![PixPin\_20260624\_221213.png](.gitbook/assets/imgsPixPin_20260624_221213.png)
+![PixPin\_20260624\_221213.png](.gitbook/assets/imgsPixPin_20260624_221213.webp)
 
-![PixPin\_20260624\_221233.png](.gitbook/assets/imgsPixPin_20260624_221233.png)
+![PixPin\_20260624\_221233.png](.gitbook/assets/imgsPixPin_20260624_221233.webp)
 
 ![PixPin\_20260801\_164157.gif](.gitbook/assets/imgsPixPin_20260801_164157.gif)
 {% endstep %}
@@ -381,7 +381,7 @@ https【:】//xu-an【.】gitbook.io/life/untitled/guan-yu-ke-xue-cong-ji-ben-su
 
 高级设置中，可以选择 WSL 里 claude code 配置文件位置。
 
-![PixPin\_20260703\_000229.png](.gitbook/assets/imgsPixPin_20260703_000229.png)
+![PixPin\_20260703\_000229.png](.gitbook/assets/imgsPixPin_20260703_000229.webp)
 
 </details>
 
@@ -410,7 +410,7 @@ TOKEN_FULL_BLOOD_PLAUSIBLE
 # 不限量卡
 ```
 
-![Luban\_17828956064044b0f6be8-5af0-40ab-b8cb-07df3c688244.jpg](.gitbook/assets/imgsLuban_17828956064044b0f6be8-5af0-40ab-b8cb-07df3c688244.jpg)
+![Luban\_17828956064044b0f6be8-5af0-40ab-b8cb-07df3c688244.jpg](.gitbook/assets/imgsLuban_17828956064044b0f6be8-5af0-40ab-b8cb-07df3c688244.webp)
 
 </details>
 
@@ -430,9 +430,9 @@ TOKEN_FULL_BLOOD_PLAUSIBLE
 
 点进来后，下载安装即可；下载安装登录完毕后，可点击软件中的 开始协助，并将自己的设备码和验证码复制并分享给好友即可。
 
-![PixPin\_20260713\_214217.png](.gitbook/assets/imgsPixPin_20260713_214217.png)
+![PixPin\_20260713\_214217.png](.gitbook/assets/imgsPixPin_20260713_214217.webp)
 
-![PixPin\_20260713\_214637.png](.gitbook/assets/imgsPixPin_20260713_214637.png)
+![PixPin\_20260713\_214637.png](.gitbook/assets/imgsPixPin_20260713_214637.webp)
 
 </details>
 
@@ -457,7 +457,7 @@ https://chatgpt.com/codex/
 
 访问后，可跳转至该页面。在页面中，直接点击页面中间的按钮即可。
 
-![PixPin\_20260713\_200635.png](.gitbook/assets/imgsPixPin_20260713_200635.png)
+![PixPin\_20260713\_200635.png](.gitbook/assets/imgsPixPin_20260713_200635.webp)
 
 ### 中转站到 CC-Switch
 
@@ -473,11 +473,11 @@ https://chatgpt.com/codex/
 
 进入页面后，选择 写入通用配置并保存。
 
-![PixPin\_20260705\_113343.png](.gitbook/assets/imgsPixPin_20260705_113343.png)
+![PixPin\_20260705\_113343.png](.gitbook/assets/imgsPixPin_20260705_113343.webp)
 
-![PixPin\_20260701\_182829.png](.gitbook/assets/imgsPixPin_20260701_182829.png)
+![PixPin\_20260701\_182829.png](.gitbook/assets/imgsPixPin_20260701_182829.webp)
 
-![PixPin\_20260701\_182930.png](.gitbook/assets/imgsPixPin_20260701_182930.png)
+![PixPin\_20260701\_182930.png](.gitbook/assets/imgsPixPin_20260701_182930.webp)
 {% endstep %}
 
 {% step %}
@@ -485,17 +485,17 @@ https://chatgpt.com/codex/
 
 回到 Codex，如下图所示：
 
-![63b6c2fc255dd927e3619c5c954c746e.png](.gitbook/assets/imgs63b6c2fc255dd927e3619c5c954c746e.png)
+![63b6c2fc255dd927e3619c5c954c746e.png](.gitbook/assets/imgs63b6c2fc255dd927e3619c5c954c746e.webp)
 
-![PixPin\_20260701\_183117.png](.gitbook/assets/imgsPixPin_20260701_183117.png)
+![PixPin\_20260701\_183117.png](.gitbook/assets/imgsPixPin_20260701_183117.webp)
 {% endstep %}
 {% endstepper %}
 
 看效果，可以用的模型，如下图所示：
 
-![PixPin\_20260701\_183606.png](.gitbook/assets/imgsPixPin_20260701_183606.png)
+![PixPin\_20260701\_183606.png](.gitbook/assets/imgsPixPin_20260701_183606.webp)
 
-![PixPin\_20260701\_184739.png](.gitbook/assets/imgsPixPin_20260701_184739.png)
+![PixPin\_20260701\_184739.png](.gitbook/assets/imgsPixPin_20260701_184739.webp)
 
 那 Hermes 能用吗？**不能**
 
@@ -503,13 +503,13 @@ https://chatgpt.com/codex/
 
 注意：如果打开界面后是这个样子的，可以把 Codex 先关掉，然后去 CC Switch 配置，配置好以后再重新打开 Codex（swith 重新生成后，**重启 codex** 后它自动校验到 API 然后自动登录了）
 
-![7d23bb9e19eb5e54b3fd22d3bd090b1c.jpg](.gitbook/assets/imgs7d23bb9e19eb5e54b3fd22d3bd090b1c.jpg)
+![7d23bb9e19eb5e54b3fd22d3bd090b1c.jpg](.gitbook/assets/imgs7d23bb9e19eb5e54b3fd22d3bd090b1c.webp)
 
 上下文压缩：可开启 CC-Switch 的这个选项（图一点进来，往下拉就能看到了）：
 
-![PixPin\_20260727\_153514.png](.gitbook/assets/imgsPixPin_20260727_153514.png)
+![PixPin\_20260727\_153514.png](.gitbook/assets/imgsPixPin_20260727_153514.webp)
 
-![PixPin\_20260727\_152549.png](.gitbook/assets/imgsPixPin_20260727_152549.png)
+![PixPin\_20260727\_152549.png](.gitbook/assets/imgsPixPin_20260727_152549.webp)
 
 ### Price - 月卡
 
@@ -551,11 +551,11 @@ https://chatgpt.com/codex/
 
 再重启一个 Claude code 窗口，即可发现模型已变为 `grok-4.5`。
 
-![PixPin\_20260713\_205518.png](.gitbook/assets/imgsPixPin_20260713_205518.png)
+![PixPin\_20260713\_205518.png](.gitbook/assets/imgsPixPin_20260713_205518.webp)
 
-![PixPin\_20260713\_205637.png](.gitbook/assets/imgsPixPin_20260713_205637.png)
+![PixPin\_20260713\_205637.png](.gitbook/assets/imgsPixPin_20260713_205637.webp)
 
-![PixPin\_20260713\_212228.png](.gitbook/assets/imgsPixPin_20260713_212228.png)
+![PixPin\_20260713\_212228.png](.gitbook/assets/imgsPixPin_20260713_212228.webp)
 {% endstep %}
 {% endstepper %}
 
@@ -673,11 +673,11 @@ cli 就是在终端里敲，开销最小、启动最快、占用资源最少，�
 
 配置好以后的效果如图所示：
 
-<figure><img src=".gitbook/assets/PixPin_20261011_134153.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/PixPin_20261011_134153.webp" alt=""><figcaption></figcaption></figure>
 
 首先，我们可以点击 配置用量查询，然后，可以点击 启用用量查询，接着可以点击 通用模板 或 自定义
 
-<div><figure><img src=".gitbook/assets/PixPin_20261011_134349.png" alt=""><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/PixPin_20261011_140319.png" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src=".gitbook/assets/PixPin_20261011_134349.webp" alt=""><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/PixPin_20261011_140319.webp" alt=""><figcaption></figcaption></figure></div>
 
 接下来，只要将中转站的相关内容填写到下面的框体中即可，代码我放下面：
 
@@ -723,7 +723,7 @@ cli 就是在终端里敲，开销最小、启动最快、占用资源最少，�
 })
 ```
 
-<figure><img src=".gitbook/assets/PixPin_20261011_140641 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/PixPin_20261011_140641 (1).webp" alt=""><figcaption></figcaption></figure>
 
 填入后，点击测试脚本，若显示通过，则可以 保存配置
 
@@ -731,8 +731,8 @@ cli 就是在终端里敲，开销最小、启动最快、占用资源最少，�
 
 如有疑问，可以加一轩微信。添加备注：中转站过来的
 
-<img src=".gitbook/assets/imgsbb1a1b81303cde4f996fdcc0303f2137.jpg" alt="bb1a1b81303cde4f996fdcc0303f2137.jpg" width="188">
+<img src=".gitbook/assets/imgsbb1a1b81303cde4f996fdcc0303f2137.webp" alt="bb1a1b81303cde4f996fdcc0303f2137.jpg" width="188">
 
-<div align="center"><img src=".gitbook/assets/imgsd523a1dbdf1d0bd10738a939f4f9e672.jpg" alt="d523a1dbdf1d0bd10738a939f4f9e672.jpg" width="188"></div>
+<div align="center"><img src=".gitbook/assets/imgsd523a1dbdf1d0bd10738a939f4f9e672.webp" alt="d523a1dbdf1d0bd10738a939f4f9e672.jpg" width="188"></div>
 
 另外，欢迎关注一轩的微信公众号：浑语阁
