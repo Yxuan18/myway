@@ -27,6 +27,7 @@
   * [google play & other app](untitled/google-play-and-other-app.md)
   * [USmart入金-OCBC](untitled/usmart-ru-jin-ocbc.md)
   * [buy BOX, about mixin](untitled/buy-box-about-mixin.md)
+  * [GPT 代充](untitled/gptdc.md)
 
 ## 职场
 
