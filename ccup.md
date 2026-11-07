@@ -20,11 +20,11 @@
 
 如果继续往下看，那么我会默认你是具备【一字不落阅读说明书】的能力的。那我们，开始吧\~
 
-***
+---
 
 最近用到一个很不错的中转站，有快一个月的时间，用了差不多 9 亿的 token
 
-![PixPin\_20260624\_221721.png](.gitbook/assets/imgsPixPin_20260624_221721.webp)
+![PixPin_20260624_221721.png](.gitbook/assets/imgsPixPin_20260624_221721.webp)
 
 那就涉及到一个 Claude Code 的安装，以及中转站配置的导入问题
 
@@ -32,17 +32,17 @@
 
 用浏览器输入链接：
 
-https://github.com/farion1231/cc-switch/releases
+<https://github.com/farion1231/cc-switch/releases>
 
-![PixPin\_20260611\_201140.png](.gitbook/assets/imgsPixPin_20260611_201140.webp)
+![PixPin_20260611_201140.png](.gitbook/assets/imgsPixPin_20260611_201140.webp)
 
-![PixPin\_20260611\_201222.png](.gitbook/assets/imgsPixPin_20260611_201222.webp)
+![PixPin_20260611_201222.png](.gitbook/assets/imgsPixPin_20260611_201222.webp)
 
 可以去这个页面中下载安装，选择对应的文件下载即可。
 
 Windows 或者 MacOS 电话，可以往下看：
 
-![PixPin\_20260611\_205002.png](.gitbook/assets/imgsPixPin_20260611_205002.webp)
+![PixPin_20260611_205002.png](.gitbook/assets/imgsPixPin_20260611_205002.webp)
 
 Windows 系统，可选择 `.msi` 结尾的安装；
 
@@ -52,7 +52,7 @@ MAC M 系列芯片可选择 `.dmg` 结尾的。单击即可下载。
 
 如何更新？
 
-![PixPin\_20260713\_195809.png](.gitbook/assets/imgsPixPin_20260713_195809.webp)
+![PixPin_20260713_195809.png](.gitbook/assets/imgsPixPin_20260713_195809.webp)
 
 ## Claude code 安装
 
@@ -73,11 +73,11 @@ npm install -g @anthropic-ai/claude-code
 
 ![PixPin\_20260612\_084737.png](.gitbook/assets/imgsPixPin_20260612_084737.webp)
 
-https://git-scm.com/install/windows
+<https://git-scm.com/install/windows>
 
 ![PixPin\_20260612\_084920.png](.gitbook/assets/imgsPixPin_20260612_084920.webp)
 
-https://nodejs.org/en/download
+<https://nodejs.org/en/download>
 
 如果 NPM 命令运行的时候出现了报错，可以试试：
 
@@ -89,17 +89,15 @@ Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 
 ## 回到中转站的步骤
 
-~~https://rsxermu666.cn/usage~~
+~~<https://rsxermu666.cn/usage>~~
 
-https://api.orbit1.lat/query
+<https://api.orbit1.lat/query>
 
 ### Start
 
 刚开始我会给这样一个链接，你只要打开浏览器，然后访问，就会看到这样的界面：
 
 <figure><img src=".gitbook/assets/PixPin_20261106_211840.webp" alt=""><figcaption><p>新的站点</p></figcaption></figure>
-
-
 
 在这个界面上，你需要输入我提供给你的激活码；之后点击 查询。查询成功后，会显示上图图二
 
@@ -123,12 +121,14 @@ https://api.orbit1.lat/query
 
 {% stepper %}
 {% step %}
+
 #### 提取旧 Key
 
 首先，可以来到页面中图一的位置，提取 KEY 的部分，一定是旧的激活码。输入后，可以点击页面中的 续费叠加。
 {% endstep %}
 
 {% step %}
+
 #### 确认续费
 
 将同类型的激活码输入弹出的窗口下方，并点击 确认续费 即可。
@@ -149,8 +149,8 @@ https://api.orbit1.lat/query
 
 以我的例子来说，近一个月的时间，我也只用了不到 350 刀。而我每天的工作以及闲暇时间基本都是在电脑上度过的。我才用了这么一点，那你呢？
 
-* 你真的需要所谓的不限量吗？
-* 你敢先很极端的去尝试一下自己究竟能用了多少吗？
+- 你真的需要所谓的不限量吗？
+- 你敢先很极端的去尝试一下自己究竟能用了多少吗？
 
 也许每个月按量付费，才是更适合自己的。还怕不够用的话，每个月先给自己来 500 刀试试呢？
 
@@ -170,9 +170,9 @@ https://api.orbit1.lat/query
 
 例如：
 
-* 1窗口 = 同时使用 1 个 AI
-* 3窗口 = 同时使用 3 个 AI
-* 5窗口 = 同时使用 5 个 AI...
+- 1窗口 = 同时使用 1 个 AI
+- 3窗口 = 同时使用 3 个 AI
+- 5窗口 = 同时使用 5 个 AI...
 
 （指 **并发数量**。若使用 1 窗口，如果后台 Agent 在跑，那么前面可能就不能使用了。此时建议双窗口及以上）
 
@@ -209,8 +209,8 @@ MAX 号池，以及～
 
 编辑器的，IDE 反代。如：curosr、kiro 、windsurf、cop、反重力等都有
 
-* 额度卡：官方 MAX 号池（满血）—— 支持 opus 5；**支持多窗口**
-* 不限量卡：IDE 号池（非满血）—— 支持全部模型
+- 额度卡：官方 MAX 号池（满血）—— 支持 opus 5；**支持多窗口**
+- 不限量卡：IDE 号池（非满血）—— 支持全部模型
 
 ```
 # 不限量
@@ -226,37 +226,30 @@ MAX 号池，以及～
 ## 附录（Q\&A）
 
 <details>
-
 <summary>cli 是指客户端吧？</summary>
 
 CLI，是指命令行下面的 Claude code，即 Claude code CLI，通常长这个样子：
 
-（图一使用 CMUX 打开：https://cmux.com/download/confirmation）
+（图一使用 CMUX 打开：<https://cmux.com/download/confirmation>）
 
 ![PixPin\_20260626\_211411.gif](.gitbook/assets/imgsPixPin_20260626_211411.gif)
 
 ![PixPin\_20260624\_202105.png](.gitbook/assets/imgsPixPin_20260624_202105.webp)
-
 </details>
 
 <details>
-
 <summary>如何安装 cc 的 cli</summary>
 
 安装 NODEJS，安装好以后用文档开头的命令即可安装。
-
 </details>
 
 <details>
-
 <summary>cc 配置时，如果我一键导入，下面的配置教程还需要跟着操作吗</summary>
 
 最好看看，可以参考一下。建议是一字不落读一遍，尤其是关于 MAC 的部分。
-
 </details>
 
 <details>
-
 <summary>设置文件夹？</summary>
 
 意思就是要选择一个 Claude Code 的工作区，（家里如果有孩子的，肯定会有一堆玩具。那么最终那些玩具要被收到客厅角落的玩具箱呢？还是收到卧室的玩具箱呢？）同理，可以在电脑里喜欢的位置下新建一个文件夹，用那个文件夹来存放自己与 Claude code 聊天时产生的众多文件。
@@ -272,53 +265,44 @@ cd ~/SEC/chat
 ```
 
 ![PixPin\_20260628\_221514.png](.gitbook/assets/imgsPixPin_20260628_221514.webp)
-
 </details>
 
 <details>
-
 <summary>这个套餐支持快速模式吗</summary>
 
 不支持。
-
 </details>
 
 <details>
-
 <summary>回答的效果好像不尽如人意？</summary>
 
 算力不足的时候会降智，就比如 2026-6-23 的时候，官方算力不足，降智十分明显。
-
 </details>
 
 <details>
-
 <summary>一直点 Yes 会有点麻烦</summary>
 
 `claude --dangerously-skip-permissions`
-
 </details>
 
 <details>
-
 <summary>Claude回答突然中断怎么办？</summary>
 
 [Claude回答突然中断怎么办？5种解决方法（2026最新）](https://my.feishu.cn/wiki/T23uweQZdiT2tFkaTy0chrljn5f)
 
 Claude 回答中断90%的情况是 **token 上限**导致的，直接回复”继续”就能解决。其余情况按照本文的判断表对号入座处理即可。养成”长任务主动拆分”的习惯，比事后处理中断要高效得多。
-
 </details>
 
-<details>
-
+<details open>
 <summary>fable-5 怎么加？</summary>
 
 **视频教程链接：**
 
 [https://v.douyin.com/WDwYe5cRVQ8/](file:///6032001/chat.zip/)
 
-{% stepper %}
+{% stepper %}  
 {% step %}
+
 #### 编辑 CC-Switch
 
 打开 CC-Switch 编辑，并拉到下面输入：
@@ -329,10 +313,11 @@ Claude 回答中断90%的情况是 **token 上限**导致的，直接回复”�
 
 ![PixPin\_20260624\_220812.png](.gitbook/assets/imgsPixPin_20260624_220812.webp)
 
-![PixPin\_20260702\_235348.png](.gitbook/assets/imgsPixPin_20260702_235348.webp)
+![PixPin\_20260702\_235348.png](.gitbook/assets/imgsPixPin_20260702_235348.webp)  
 {% endstep %}
 
 {% step %}
+
 #### 切换模型
 
 回到 Claude code，可以通过 `/model` 命令切换模型。
@@ -343,14 +328,12 @@ Claude 回答中断90%的情况是 **token 上限**导致的，直接回复”�
 
 ![PixPin\_20260624\_221233.png](.gitbook/assets/imgsPixPin_20260624_221233.webp)
 
-![PixPin\_20260801\_164157.gif](.gitbook/assets/imgsPixPin_20260801_164157.gif)
-{% endstep %}
+![PixPin\_20260801\_164157.gif](.gitbook/assets/imgsPixPin_20260801_164157.gif)  
+{% endstep %}  
 {% endstepper %}
-
 </details>
 
-<details>
-
+<details open>
 <summary>关于网络</summary>
 
 小道消息，后期大陆所有中转站都不能直连，做好挂梯子（拥有境外 IP 地址）才能使用的准备。
@@ -360,33 +343,27 @@ Claude 回答中断90%的情况是 **token 上限**导致的，直接回复”�
 https【:】//xu-an【.】gitbook.io/life/untitled/guan-yu-ke-xue-cong-ji-ben-su-yang-tan-qi
 
 如果你不在一线城市，可能部分地区的运营商会对我的链接进行屏蔽（或 DNS 污染）。别慌，换流量访问试试。
-
 </details>
 
-<details>
-
+<details open>
 <summary>可用模型</summary>
 
-* Opus 4.6 - 5
-* Sonnet 4.6，5
-* Haiku 4.5
-* fable-5
-* claude-fable-5-1
-
+- Opus 4.6 - 5
+- Sonnet 4.6，5
+- Haiku 4.5
+- fable-5
+- claude-fable-5-1
 </details>
 
 <details>
-
 <summary>CC-Switch 怎么用WSL</summary>
 
 高级设置中，可以选择 WSL 里 claude code 配置文件位置。
 
 ![PixPin\_20260703\_000229.png](.gitbook/assets/imgsPixPin_20260703_000229.webp)
-
 </details>
 
 <details>
-
 <summary>模型有测试过吗？</summary>
 
 使用群友的测试结果：
@@ -411,49 +388,42 @@ TOKEN_FULL_BLOOD_PLAUSIBLE
 ```
 
 ![Luban\_17828956064044b0f6be8-5af0-40ab-b8cb-07df3c688244.jpg](.gitbook/assets/imgsLuban_17828956064044b0f6be8-5af0-40ab-b8cb-07df3c688244.webp)
-
 </details>
 
 <details>
-
 <summary>Powershell 中文乱码问题</summary>
 
 [About Coding](https://my.feishu.cn/wiki/KBNbwhkbDiYYwlkCHvucgJLnnch)
-
 </details>
 
 <details>
-
 <summary>远程协助？</summary>
 
-推荐 UU 远程，官网地址：https://uuyc.163.com/
+推荐 UU 远程，官网地址：<https://uuyc.163.com/>
 
 点进来后，下载安装即可；下载安装登录完毕后，可点击软件中的 开始协助，并将自己的设备码和验证码复制并分享给好友即可。
 
 ![PixPin\_20260713\_214217.png](.gitbook/assets/imgsPixPin_20260713_214217.webp)
 
 ![PixPin\_20260713\_214637.png](.gitbook/assets/imgsPixPin_20260713_214637.webp)
-
 </details>
 
 <details>
-
 <summary>相关教程</summary>
 
-外面一份卖 20 - 50 不等，实际是开源的文档。链接：https://coding.stormzhang.ai/
+外面一份卖 20 - 50 不等，实际是开源的文档。链接：<https://coding.stormzhang.ai/>
 
 Codex 破甲：
 
-* https://yynxxxxx.github.io/Codex-X/#hero
-* https://github.com/zxr-roro/GPT5.6-5.5-/blob/main/zzy-codex5.6/
-
+- <https://yynxxxxx.github.io/Codex-X/#hero>
+- <https://github.com/zxr-roro/GPT5.6-5.5-/blob/main/zzy-codex5.6/>
 </details>
 
 ## Codex (不太推荐)
 
 ### 下载
 
-https://chatgpt.com/codex/
+<https://chatgpt.com/codex/>
 
 访问后，可跳转至该页面。在页面中，直接点击页面中间的按钮即可。
 
@@ -463,12 +433,14 @@ https://chatgpt.com/codex/
 
 {% stepper %}
 {% step %}
+
 #### 点击编辑
 
 点击编辑。
 {% endstep %}
 
 {% step %}
+
 #### 写入通用配置并保存
 
 进入页面后，选择 写入通用配置并保存。
@@ -481,6 +453,7 @@ https://chatgpt.com/codex/
 {% endstep %}
 
 {% step %}
+
 #### 回到 Codex
 
 回到 Codex，如下图所示：
@@ -521,8 +494,8 @@ https://chatgpt.com/codex/
 
 经常用的话，性价比是可以有的。
 
-* GPT的月卡，上下文長度有限制吗
-  * 上下文随官方的，没限制
+- GPT的月卡，上下文長度有限制吗
+  - 上下文随官方的，没限制
 
 ```
 # 额度（永久 or 月）
@@ -535,18 +508,21 @@ https://chatgpt.com/codex/
 
 {% stepper %}
 {% step %}
+
 #### 导入配置
 
 提取激活码，并来到 使用教程 页面，导入配置。
 {% endstep %}
 
 {% step %}
+
 #### 添加模型
 
 导入配置后，来到 高级选项，将 `grok-4.5` 输入模型的列表内，保存即可。
 {% endstep %}
 
 {% step %}
+
 #### 重启 Claude code
 
 再重启一个 Claude code 窗口，即可发现模型已变为 `grok-4.5`。
@@ -565,7 +541,7 @@ https://chatgpt.com/codex/
 
 不影响越来开通的用户。
 
-***
+---
 
 ## Some Plus or Pro
 
@@ -584,7 +560,7 @@ https://chatgpt.com/codex/
 
 ## 其实，我更推荐 MAC
 
-[https://mp.weixin.qq.com/s/J8ErjDammtu7l6sRSD8AJQ](https://mp.weixin.qq.com/s/J8ErjDammtu7l6sRSD8AJQ)
+<https://mp.weixin.qq.com/s/J8ErjDammtu7l6sRSD8AJQ>
 
 原文贴在下面：
 
@@ -615,7 +591,7 @@ Mac 显然比其他电脑更贵一些。但是对 Viber 来说，它更像一项
 屠龙刀还是废铁，取决于使用者。
 ```
 
-https://mp.weixin.qq.com/s/4Yvhs0WCNB-mlof3qp\_UGQ
+<https://mp.weixin.qq.com/s/4Yvhs0WCNB-mlof3qp_UGQ>
 
 ```
 爬上来说几点，大部分人不知道的反常识。
@@ -680,8 +656,52 @@ cli 就是在终端里敲，开销最小、启动最快、占用资源最少，�
 <div><figure><img src=".gitbook/assets/PixPin_20261011_134349.webp" alt=""><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/PixPin_20261011_140319.webp" alt=""><figcaption></figcaption></figure></div>
 
 接下来，只要将中转站的相关内容填写到下面的框体中即可，代码我放下面：
+新代码如下：
 
-```js
+```javascript
+
+({
+  request: {
+    url: "https://api.orbit1.lat/api/open/card/query",
+    method: "POST",
+    headers: {
+      "Accept": "application/json",
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify({
+      card_key: "<你的激活码，需要手动替换>"
+    })
+  },
+
+  extractor: function(response) {
+    if (response.code !== 200 || !response.data) {
+      return {
+        isValid: false,
+        invalidMessage: response.message || "查询失败"
+      };
+    }
+
+    const data = response.data;
+    const quota = data.quota || {};
+
+    return {
+      isValid: data.status === "active",
+      invalidMessage: data.status_text || "卡密不可用",
+      planName: data.product?.plan_name || "额度卡",
+      remaining: Number(quota.remaining_usd),
+      used: Number(quota.used_usd),
+      total: Number(quota.total_usd),
+      unit: "USD",
+      extra: `请求次数：${quota.request_count ?? 0} 次`
+    };
+  }
+})
+
+```
+
+旧代码如下：
+
+```
 ({
   request: {
     url: "{{baseUrl}}/api/user/key-info",
