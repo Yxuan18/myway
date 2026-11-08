@@ -139,6 +139,20 @@ Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 {% endstep %}
 {% endstepper %}
 
+## 先把术语说清楚
+
+<figure><img src=".gitbook/assets/ccup-pools.svg" alt="额度卡走 AWS 号池，月卡走 IDE 号池"><figcaption><p>两种卡背后是不同的号池</p></figcaption></figure>
+
+后面聊价格、套餐、续费，都会用到下面这几个词。这里一次定清楚，全文按这个口径。
+
+- **号池**：很多个账号放在一起，谁来用就分给谁。中转站自己不生产 Claude，它只是把一堆账号集中起来，按卡的类型分给用户。
+- **AWS 号池**：用亚马逊云（AWS）开通的 Claude 账号。账号能力「满血」——回答质量高，可以同时开多个窗口。额度卡走这条。
+- **IDE 号池**：从各种 AI 编程编辑器（Cursor、Kiro、Windsurf 等）的账号里转出来的额度。价格便宜，但高峰期要排队，回答可能变慢、变笨。月卡走这条。
+- **满血 / 非满血**：满血指账号能力完整；非满血指算力紧张时会被降智。这是卖家的说法，不是精确指标。
+- **窗口**：同一时间最多能开几个 AI 一起干活。1 个窗口 = 同时用 1 个 AI。
+- **额度卡**：按用量买。100 美元额度约 30 元，用完再买。
+- **月卡**：按月买，按窗口数计价，1 个窗口 159 元起。也叫「不限量卡」。
+
 ## 关于月卡，我想说的
 
 或许，我们都高估了自己的硅基时间；
@@ -203,17 +217,13 @@ B 做完后，C 才能进去；C 做完后，D 再进去。
 
 ### Price（CNY）
 
-Claude Code：
+Claude Code 走哪种号池，看买的是哪张卡：
 
-MAX 号池，以及～
-
-编辑器的，IDE 反代。如：curosr、kiro 、windsurf、cop、反重力等都有
-
-- 额度卡：官方 MAX 号池（满血）—— 支持 opus 5；**支持多窗口**
-- 不限量卡：IDE 号池（非满血）—— 支持全部模型
+- **额度卡**：走 AWS 号池（满血）—— 支持 opus 5；**支持多窗口**
+- **月卡**：走 IDE 号池（非满血）—— 支持全部模型。额度来自 Cursor、Kiro、Windsurf、Copilot、Antigravity（反重力）等编辑器账号
 
 ```
-# 不限量
+# 月卡（不限量）
 一个窗口的，159
 两个的 179
 三个的 219
@@ -484,7 +494,7 @@ Codex 破甲：
 
 ![PixPin\_20260727\_152549.png](.gitbook/assets/imgsPixPin_20260727_152549.webp)
 
-### Price - 月卡
+### Price - GPT 月卡
 
 有老板实测，
 
