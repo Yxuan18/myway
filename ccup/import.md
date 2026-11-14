@@ -1,5 +1,12 @@
 # 导入配置与续费
 
+{% hint style="warning" %}
+**所有链接都不用手机自带浏览器打开，都不用微信打开！！！**
+{% endhint %}
+
+把激活码导进 CC-Switch。前置：已装好 CC-Switch（见[安装](install.md)），手里有激活码。
+
+<!-- 待补：激活码获取方式（下单后发 / 群里领 / 微信找一轩） -->
 
 当前站点：<https://api.orbit1.lat/query>
 

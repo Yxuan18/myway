@@ -1,7 +1,8 @@
 # 术语
 
-
 最后更新：2026-11-14
+
+返回[总览](README.md)。
 
 <figure><img src="../.gitbook/assets/ccup-pools.svg" alt="额度卡走 AWS 号池，月卡走 IDE 号池"><figcaption><p>两种卡背后是不同的号池</p></figcaption></figure>
 

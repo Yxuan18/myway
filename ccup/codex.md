@@ -1,5 +1,6 @@
 # Codex（不太推荐）
 
+另一条产品线，和 Claude Code 分开计费。返回[总览](README.md)。
 
 ## 下载
 

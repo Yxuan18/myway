@@ -1,7 +1,12 @@
 # 模型与用量
 
-
 最后更新：2026-11-14
+
+{% hint style="warning" %}
+**所有链接都不用手机自带浏览器打开，都不用微信打开！！！**
+{% endhint %}
+
+加模型、关确认、查额度。前置：Claude Code 已经能用（见[安装](install.md)和[导入配置与续费](import.md)）。返回[总览](README.md)。
 
 ## 添加 fable-5
 
