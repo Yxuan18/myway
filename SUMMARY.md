@@ -93,6 +93,7 @@
   * [Bubble Mart 2024–2025: Performance, Share Price, and Inequality Impact](withaithink/bubble-mart-2024-2025-performance-share-price-and-inequality-impact.md)
 * [CCup](ccup/README.md)
   * [安装](ccup/install.md)
+  * [安卓手机 Termux 安装 Claude Code](ccup/termux-claude-code-tutorial.md)
   * [导入配置与续费](ccup/import.md)
   * [术语](ccup/glossary.md)
   * [套餐与价格](ccup/plan.md)
