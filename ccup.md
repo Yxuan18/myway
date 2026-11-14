@@ -1,14 +1,10 @@
 # CCup
 
-## CC 用上（实时更新）
+<!-- 拆分目标：ccup/README.md -->
 
-如果你想要通过这篇文档进行一些操作，那么需要注意的是：
+## 开始之前
 
 {% hint style="warning" %}
-**所有链接都不用手机自带浏览器打开，都不用微信打开！！！**
-
-**所有链接都不用手机自带浏览器打开，都不用微信打开！！！**
-
 **所有链接都不用手机自带浏览器打开，都不用微信打开！！！**
 {% endhint %}
 
@@ -16,19 +12,30 @@
 
 推荐：Chrome，Edge 浏览器（自行搜索下载安装，推荐搜索引擎使用 必应 bing.com ）
 
-上面的忠告适用于任何地方，如果你也在 学升 社群
+上面的忠告在任何地方都适用，在 学升 社群也一样。
 
-如果继续往下看，那么我会默认你是具备【一字不落阅读说明书】的能力的。那我们，开始吧\~
+继续往下看，默认具备【一字不落阅读说明书】的能力。那我们，开始吧~
 
----
+**一条前置条件：网络。** 小道消息，后期大陆所有中转站都不能直连，做好挂梯子（拥有境外 IP 地址）才能使用的准备。
 
-最近用到一个很不错的中转站，有快一个月的时间，用了差不多 9 亿的 token
+关于梯子，或许可以看我的这篇文章（推荐 clash verge）：
 
-![PixPin_20260624_221721.png](.gitbook/assets/imgsPixPin_20260624_221721.webp)
+https【:】//xu-an【.】gitbook.io/life/untitled/guan-yu-ke-xue-cong-ji-ben-su-yang-tan-qi
 
-那就涉及到一个 Claude Code 的安装，以及中转站配置的导入问题
+不在一线城市的话，可能部分地区的运营商会对链接进行屏蔽（或 DNS 污染）。别慌，换流量访问试试。
 
-## CC-Switch 安装
+**按自己手上的状态选入口：**
+
+- 还没装过 Claude Code → 看「安装」
+- 已经装了，只差把卡导进去 → 看「导入配置与续费」
+- 在犹豫买额度卡还是月卡 → 看「套餐与价格」
+- 已经在用了，想加模型或查用量 → 看「模型与用量」
+
+## 安装
+
+<!-- 拆分目标：ccup/install.md -->
+
+### CC-Switch 安装
 
 用浏览器输入链接：
 
@@ -40,7 +47,7 @@
 
 可以去这个页面中下载安装，选择对应的文件下载即可。
 
-Windows 或者 MacOS 电话，可以往下看：
+Windows 或者 MacOS 电脑，可以往下看：
 
 ![PixPin_20260611_205002.png](.gitbook/assets/imgsPixPin_20260611_205002.webp)
 
@@ -48,13 +55,13 @@ Windows 系统，可选择 `.msi` 结尾的安装；
 
 MAC M 系列芯片可选择 `.dmg` 结尾的。单击即可下载。
 
-小建议：尽量维持 CC Switch 在**最新版本**Claude Code。
+小建议：尽量让 CC Switch 保持最新版本。
 
 如何更新？
 
 ![PixPin_20260713_195809.png](.gitbook/assets/imgsPixPin_20260713_195809.webp)
 
-## Claude code 安装
+### Claude Code 安装
 
 ```
 # 更新的时候也可以用这个命令
@@ -63,11 +70,14 @@ npm install -g @anthropic-ai/claude-code
 
 要做到执行上面的这个命令，首先需要做的就是下载 NodeJS。Mac 电脑或者 Windows 电脑可以自行去找相关的教程。
 
-### MAC OS
+#### MAC OS
 
 安装 homebrew，node，git。
 
-### WINDOWS
+- Homebrew：<https://brew.sh/>
+- NodeJS：<https://nodejs.org/en/download>
+
+#### WINDOWS
 
 分别下载 Git，NodeJS。
 
@@ -87,23 +97,51 @@ npm install -g @anthropic-ai/claude-code
 Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 ```
 
-## 回到中转站的步骤
+### 给 Claude Code 一个工作区
 
-~~<https://rsxermu666.cn/usage>~~
+意思就是要选择一个 Claude Code 的工作区，（家里如果有孩子的，肯定会有一堆玩具。那么最终那些玩具要被收到客厅角落的玩具箱呢？还是收到卧室的玩具箱呢？）同理，可以在电脑里喜欢的位置下新建一个文件夹，用那个文件夹来存放自己与 Claude code 聊天时产生的众多文件。
 
-<https://api.orbit1.lat/query>
+我的位置在 `~/SEC/chat`
+
+```
+# 新建文件夹：MAC
+mkdir ~/SEC/chat
+# 进入文件夹
+cd ~/SEC/chat
+# 进入以后，再输入 claude ，点击回车，进入 claude code 界面
+```
+
+![PixPin\_20260628\_221514.png](.gitbook/assets/imgsPixPin_20260628_221514.webp)
+
+### WSL 用户的配置位置
+
+CC-Switch 的高级设置中，可以选择 WSL 里 claude code 配置文件位置。
+
+![PixPin\_20260703\_000229.png](.gitbook/assets/imgsPixPin_20260703_000229.webp)
+
+### PowerShell 中文乱码
+
+[About Coding](https://my.feishu.cn/wiki/KBNbwhkbDiYYwlkCHvucgJLnnch)
+
+## 导入配置与续费
+
+<!-- 拆分目标：ccup/import.md -->
+
+当前站点：<https://api.orbit1.lat/query>
+
+（上面这一行是全文唯一需要改的站点地址，站点换的时候改这里。）
 
 ### Start
 
-刚开始我会给这样一个链接，你只要打开浏览器，然后访问，就会看到这样的界面：
+刚开始我会给这样一个链接，只要打开浏览器访问，就会看到这样的界面：
 
 <figure><img src=".gitbook/assets/PixPin_20261106_211840.webp" alt=""><figcaption><p>新的站点</p></figcaption></figure>
 
-在这个界面上，你需要输入我提供给你的激活码；之后点击 查询。查询成功后，会显示上图图二
+在这个界面上，你需要输入我提供给你的激活码；之后点击 查询。查询成功后，页面会显示你的额度信息。
 
-若显示提取成功，点击页面左侧的“使用教程”，出现图二。
+若显示提取成功，点击页面左侧的「使用教程」，进入使用教程页。
 
-到这里以后，默认你已经安装了 CC Switch。此时只需要点击页面当中的“一键导入配置”，浏览器会提醒是否打开 CC Switch，点击 是。接下来配置项就会出现在 CC Switch 中。
+到这里以后，默认你已经安装了 CC Switch。此时只需要点击页面当中的「一键导入配置」，浏览器会提醒是否打开 CC Switch，点击 是。接下来配置项就会出现在 CC Switch 中。
 
 ![PixPin\_20260611\_205927.png](.gitbook/assets/imgsPixPin_20260611_205927.webp)
 
@@ -111,11 +149,15 @@ Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 
 ![PixPin\_20260611\_210108.png](.gitbook/assets/imgsPixPin_20260611_210108.webp)
 
-（等到后期自己十分熟悉以后，可以点击启用按钮右面的编辑，去里面编辑对应的配置选项。如果自己想尝试一下，可以点击再用面的复制，先复制一份出来，去里面随便折腾）
+（等到后期自己十分熟悉以后，可以点击启用按钮右面的编辑，去里面编辑对应的配置选项。如果自己想尝试一下，可以点击右面的复制，先复制一份出来，去里面随便折腾）
 
 ![PixPin\_20260612\_221650.png](.gitbook/assets/imgsPixPin_20260612_221650.webp)
 
 ![PixPin\_20260612\_221538.png](.gitbook/assets/imgsPixPin_20260612_221538.webp)
+
+{% hint style="info" %}
+一键导入之后，CC-Switch 里的配置教程仍然建议看一遍，尤其关于 MAC 的部分。
+{% endhint %}
 
 ### 继续使用（续费）
 
@@ -139,7 +181,11 @@ Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 {% endstep %}
 {% endstepper %}
 
-## 先把术语说清楚
+## 术语
+
+<!-- 拆分目标：ccup/glossary.md -->
+
+最后更新：2026-11-14
 
 <figure><img src=".gitbook/assets/ccup-pools.svg" alt="额度卡走 AWS 号池，月卡走 IDE 号池"><figcaption><p>两种卡背后是不同的号池</p></figcaption></figure>
 
@@ -150,23 +196,10 @@ Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 - **IDE 号池**：从各种 AI 编程编辑器（Cursor、Kiro、Windsurf 等）的账号里转出来的额度。价格便宜，但高峰期要排队，回答可能变慢、变笨。月卡走这条。
 - **满血 / 非满血**：满血指账号能力完整；非满血指算力紧张时会被降智。这是卖家的说法，不是精确指标。
 - **窗口**：同一时间最多能开几个 AI 一起干活。1 个窗口 = 同时用 1 个 AI。
-- **额度卡**：按用量买。100 美元额度约 30 元，用完再买。
-- **月卡**：按月买，按窗口数计价，1 个窗口 159 元起。也叫「不限量卡」。
+- **额度卡**：按用量买，用完再买。
+- **月卡**：按月买，按窗口数计价。也叫「不限量卡」。
 
-## 关于月卡，我想说的
-
-或许，我们都高估了自己的硅基时间；
-
-也许，我们并不需要什么所谓的不限量。
-
-就像有的随身 WiFi 或者大流量卡宣称的，一个月 40 元流量不限量使用一样，其实仔细回想，我们能用了那么多吗？也许我们所谓的不限量，只是购买的一种自己内心的安全感。
-
-以我的例子来说，近一个月的时间，我也只用了不到 350 刀。而我每天的工作以及闲暇时间基本都是在电脑上度过的。我才用了这么一点，那你呢？
-
-- 你真的需要所谓的不限量吗？
-- 你敢先很极端的去尝试一下自己究竟能用了多少吗？
-
-也许每个月按量付费，才是更适合自己的。还怕不够用的话，每个月先给自己来 500 刀试试呢？
+具体价格数字统一放在「套餐与价格」一节。
 
 ### 关于窗口
 
@@ -190,53 +223,15 @@ Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 
 （指 **并发数量**。若使用 1 窗口，如果后台 Agent 在跑，那么前面可能就不能使用了。此时建议双窗口及以上）
 
-如果你也有需要 Claude code，
+#### 双窗口举例
 
-那么这份 TOKEN 不限量套餐，也许正适合你。
+这个中转站只有 2 个座位。如果一个人正在和 AI 持续聊天，他会一直占着 1 个座位。这时只剩下 1 个座位给其他 Agent 使用。
 
-另外，如果你觉得自己其实用不了太多，额度卡也刚好合适（用完即止）
+A 正在和 AI 聊天，占用 1 个并发。B Agent 开始工作，占用第 2 个并发。这时 C、D、E Agent 都来了，因为两个位置已经满了，它们只能排队。B 做完后，C 才能进去；C 做完后，D 再进去。
 
-也不会有其他人所谓的什么 5 小时限制。
+所以核心不是「只能两个人使用」，而是：任何一个时刻，最多只能有 2 个正在进行中的 AI 会话。一个长时间聊天占住其中一个后，剩下所有自动化 Agent 实际上只能共享另一个通道，表现出来就是一个接一个排队。
 
-```
-# 双窗口举例
-
-这个中转站只有 2 个座位。
-如果一个人正在和 AI 持续聊天，他会一直占着 1 个座位。
-这时只剩下 1 个座位给其他 Agent 使用。
-如果后面同时来了多个 Agent，它们就不能一起跑，只能等前面的任务结束、座位空出来，再一个一个接着执行。
-
-A 正在和 AI 聊天，占用 1 个并发。
-B Agent 开始工作，占用第 2 个并发。
-这时 C、D、E Agent 都来了，因为两个位置已经满了，它们只能排队。
-B 做完后，C 才能进去；C 做完后，D 再进去。
-
-所以核心不是“ 只能两个人使用 ”，而是：
-任何一个时刻，最多只能有 2 个正在进行中的 AI 会话。一个长时间聊天占住其中一个后，剩下所有自动化 Agent 实际上只能共享另一个通道，表现出来就是一个接一个排队。
-```
-
-### Price（CNY）
-
-Claude Code 走哪种号池，看买的是哪张卡：
-
-- **额度卡**：走 AWS 号池（满血）—— 支持 opus 5；**支持多窗口**
-- **月卡**：走 IDE 号池（非满血）—— 支持全部模型。额度来自 Cursor、Kiro、Windsurf、Copilot、Antigravity（反重力）等编辑器账号
-
-```
-# 月卡（不限量）
-一个窗口的，159
-两个的 179
-三个的 219
-天卡 18
-
-# 额度卡
-100刀 30 CNY
-```
-
-## 附录（Q\&A）
-
-<details>
-<summary>cli 是指客户端吧？</summary>
+### CLI 是什么
 
 CLI，是指命令行下面的 Claude code，即 Claude code CLI，通常长这个样子：
 
@@ -245,136 +240,98 @@ CLI，是指命令行下面的 Claude code，即 Claude code CLI，通常长这�
 ![PixPin\_20260626\_211411.gif](.gitbook/assets/imgsPixPin_20260626_211411.gif)
 
 ![PixPin\_20260624\_202105.png](.gitbook/assets/imgsPixPin_20260624_202105.webp)
-</details>
 
-<details>
-<summary>如何安装 cc 的 cli</summary>
-
-安装 NODEJS，安装好以后用文档开头的命令即可安装。
-</details>
-
-<details>
-<summary>cc 配置时，如果我一键导入，下面的配置教程还需要跟着操作吗</summary>
-
-最好看看，可以参考一下。建议是一字不落读一遍，尤其是关于 MAC 的部分。
-</details>
-
-<details>
-<summary>设置文件夹？</summary>
-
-意思就是要选择一个 Claude Code 的工作区，（家里如果有孩子的，肯定会有一堆玩具。那么最终那些玩具要被收到客厅角落的玩具箱呢？还是收到卧室的玩具箱呢？）同理，可以在电脑里喜欢的位置下新建一个文件夹，用那个文件夹来存放自己与 Claude code 聊天时产生的众多文件。
-
-我的位置在 `~/SEC/chat`
-
-```
-# 新建文件夹：MAC
-mkdir ~/SEC/chat
-# 进入文件夹
-cd ~/SEC/chat
-# 进入以后，再输入 claude ，点击回车，进入 claude code 界面
-```
-
-![PixPin\_20260628\_221514.png](.gitbook/assets/imgsPixPin_20260628_221514.webp)
-</details>
-
-<details>
-<summary>这个套餐支持快速模式吗</summary>
-
-不支持。
-</details>
-
-<details>
-<summary>回答的效果好像不尽如人意？</summary>
-
-算力不足的时候会降智，就比如 2026-6-23 的时候，官方算力不足，降智十分明显。
-</details>
-
-<details>
-<summary>一直点 Yes 会有点麻烦</summary>
-
-`claude --dangerously-skip-permissions`
-</details>
-
-<details>
-<summary>Claude回答突然中断怎么办？</summary>
-
-[Claude回答突然中断怎么办？5种解决方法（2026最新）](https://my.feishu.cn/wiki/T23uweQZdiT2tFkaTy0chrljn5f)
-
-Claude 回答中断90%的情况是 **token 上限**导致的，直接回复”继续”就能解决。其余情况按照本文的判断表对号入座处理即可。养成”长任务主动拆分”的习惯，比事后处理中断要高效得多。
-</details>
-
-<details open>
-<summary>fable-5 怎么加？</summary>
-
-**视频教程链接：**
-
-[https://v.douyin.com/WDwYe5cRVQ8/](file:///6032001/chat.zip/)
-
-{% stepper %}  
-{% step %}
-
-#### 编辑 CC-Switch
-
-打开 CC-Switch 编辑，并拉到下面输入：
-
-`claude-fable-5`
-
-![PixPin\_20260801\_161357.gif](.gitbook/assets/imgsPixPin_20260801_161357.gif)
-
-![PixPin\_20260624\_220812.png](.gitbook/assets/imgsPixPin_20260624_220812.webp)
-
-![PixPin\_20260702\_235348.png](.gitbook/assets/imgsPixPin_20260702_235348.webp)  
-{% endstep %}
-
-{% step %}
-
-#### 切换模型
-
-回到 Claude code，可以通过 `/model` 命令切换模型。
-
-![PixPin\_20260624\_221107.png](.gitbook/assets/imgsPixPin_20260624_221107.webp)
-
-![PixPin\_20260624\_221213.png](.gitbook/assets/imgsPixPin_20260624_221213.webp)
-
-![PixPin\_20260624\_221233.png](.gitbook/assets/imgsPixPin_20260624_221233.webp)
-
-![PixPin\_20260801\_164157.gif](.gitbook/assets/imgsPixPin_20260801_164157.gif)  
-{% endstep %}  
-{% endstepper %}
-</details>
-
-<details open>
-<summary>关于网络</summary>
-
-小道消息，后期大陆所有中转站都不能直连，做好挂梯子（拥有境外 IP 地址）才能使用的准备。
-
-关于梯子，或许你可以看我的这篇文章（推荐 clash verge）：
-
-https【:】//xu-an【.】gitbook.io/life/untitled/guan-yu-ke-xue-cong-ji-ben-su-yang-tan-qi
-
-如果你不在一线城市，可能部分地区的运营商会对我的链接进行屏蔽（或 DNS 污染）。别慌，换流量访问试试。
-</details>
-
-<details open>
-<summary>可用模型</summary>
+### 可用模型
 
 - Opus 4.6 - 5
 - Sonnet 4.6，5
 - Haiku 4.5
 - fable-5
 - claude-fable-5-1
-</details>
 
-<details>
-<summary>CC-Switch 怎么用WSL</summary>
+## 套餐与价格
 
-高级设置中，可以选择 WSL 里 claude code 配置文件位置。
+<!-- 拆分目标：ccup/plan.md -->
 
-![PixPin\_20260703\_000229.png](.gitbook/assets/imgsPixPin_20260703_000229.webp)
-</details>
+最后更新：2026-11-14
 
-<details>
-<summary>模型有测试过吗？</summary>
+### 这是一个什么样的中转站
+
+最近用到一个很不错的中转站，用了快一个月。站点后台显示，这段时间的 token 总量是 9 亿。
+
+![PixPin_20260624_221721.png](.gitbook/assets/imgsPixPin_20260624_221721.webp)
+
+那就涉及到一个 Claude Code 的安装，以及中转站配置的导入问题。
+
+### 关于月卡，我想说的
+
+或许，我们都高估了自己的硅基时间；
+
+也许，我们并不需要什么所谓的不限量。
+
+就像有的随身 WiFi 或者大流量卡宣称的，一个月 40 元流量不限量使用一样，其实仔细回想，我们能用了那么多吗？也许我们所谓的不限量，只是购买的一种自己内心的安全感。
+
+以我的例子来说，近一个月的时间，我也只用了不到 350 刀的额度。而我每天的工作以及闲暇时间基本都是在电脑上度过的。我才用了这么一点，那你呢？
+
+两个数字口径不同：9 亿是站点统计的 token 总量，350 刀是实际扣掉的额度，不是一回事。
+
+- 真的需要所谓的不限量吗？
+- 敢先很极端地去试一下自己究竟能用多少吗？
+
+也许每个月按量付费，才是更适合自己的。还怕不够用的话，每个月先给自己来 500 刀试试呢？
+
+### 额度卡与月卡
+
+Claude Code 走哪种号池，看买的是哪张卡：
+
+- **额度卡**：走 AWS 号池（满血）—— 支持 opus 5；**支持多窗口**
+- **月卡**：走 IDE 号池（非满血）—— 支持全部模型。额度来自 Cursor、Kiro、Windsurf、Copilot、Antigravity（反重力）等编辑器账号
+
+### 价格（CNY）
+
+| 卡种  | 计价方式  | 价格        |
+| --- | ----- | --------- |
+| 额度卡 | 100 刀 | 30 CNY    |
+| 月卡  | 1 个窗口 | 159 CNY   |
+| 月卡  | 2 个窗口 | 179 CNY   |
+| 月卡  | 3 个窗口 | 219 CNY   |
+| 天卡  | 1 天   | 18 CNY    |
+
+额度卡用完即止，也没有其他人所谓的什么 5 小时限制。
+
+### GPT / Codex 的额度与月卡
+
+有老板实测，20 美元（130+）的 Plus 一个月用下来相当于 **350 刀**额度；月卡是额度每天 100，相当于月 3000 刀。经常用的话，性价比是可以有的。
+
+上下文长度随官方的，没限制。
+
+| 卡种     | 计价方式         | 价格        |
+| ------ | ------------ | --------- |
+| GPT 额度 | 100 刀        | 30 CNY    |
+| GPT 月卡 | 每天 100 刀额度   | 150 CNY/月 |
+
+### Some Plus or Pro（官方订阅代充）
+
+[GPT 代充教程](untitled/gptdc.md)
+
+| 产品         | 详情      | 价格（CNY） |
+| ---------- | ------- | ------- |
+| GPT        | Plus    | 158     |
+|            | Pro 5x  | 740     |
+|            | Pro 20x | 1380    |
+| Claude     | Pro     | 168     |
+|            | Max     | 待补充     |
+| Grok       |         | 待补充     |
+| X（Twitter） |         | 待补充     |
+| Cursor     | 20 刀    | 165     |
+
+标「待补充」的是暂时没有报价，需要时直接问一轩。
+
+### 支持快速模式吗
+
+不支持。
+
+### 群友实测（未经独立核实）
 
 使用群友的测试结果：
 
@@ -398,16 +355,129 @@ TOKEN_FULL_BLOOD_PLAUSIBLE
 ```
 
 ![Luban\_17828956064044b0f6be8-5af0-40ab-b8cb-07df3c688244.jpg](.gitbook/assets/imgsLuban_17828956064044b0f6be8-5af0-40ab-b8cb-07df3c688244.webp)
-</details>
 
-<details>
-<summary>Powershell 中文乱码问题</summary>
+## 模型与用量
 
-[About Coding](https://my.feishu.cn/wiki/KBNbwhkbDiYYwlkCHvucgJLnnch)
-</details>
+<!-- 拆分目标：ccup/usage.md -->
 
-<details>
-<summary>远程协助？</summary>
+最后更新：2026-11-14
+
+### 添加 fable-5
+
+**视频教程链接：**
+
+<https://v.douyin.com/WDwYe5cRVQ8/>
+
+{% stepper %}
+{% step %}
+
+#### 编辑 CC-Switch
+
+打开 CC-Switch 编辑，并拉到下面输入：
+
+`claude-fable-5`
+
+![PixPin\_20260801\_161357.gif](.gitbook/assets/imgsPixPin_20260801_161357.gif)
+
+![PixPin\_20260624\_220812.png](.gitbook/assets/imgsPixPin_20260624_220812.webp)
+
+![PixPin\_20260702\_235348.png](.gitbook/assets/imgsPixPin_20260702_235348.webp)
+{% endstep %}
+
+{% step %}
+
+#### 切换模型
+
+回到 Claude code，可以通过 `/model` 命令切换模型。
+
+![PixPin\_20260624\_221107.png](.gitbook/assets/imgsPixPin_20260624_221107.webp)
+
+![PixPin\_20260624\_221213.png](.gitbook/assets/imgsPixPin_20260624_221213.webp)
+
+![PixPin\_20260624\_221233.png](.gitbook/assets/imgsPixPin_20260624_221233.webp)
+
+![PixPin\_20260801\_164157.gif](.gitbook/assets/imgsPixPin_20260801_164157.gif)
+{% endstep %}
+{% endstepper %}
+
+### 一直点 Yes 太麻烦
+
+`claude --dangerously-skip-permissions`
+
+### 在 CC-Switch 里配置用量查询
+
+配置好以后的效果如图所示：
+
+<figure><img src=".gitbook/assets/PixPin_20261011_134153.webp" alt=""><figcaption></figcaption></figure>
+
+首先，我们可以点击 配置用量查询，然后，可以点击 启用用量查询，接着可以点击 通用模板 或 自定义
+
+<div><figure><img src=".gitbook/assets/PixPin_20261011_134349.webp" alt=""><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/PixPin_20261011_140319.webp" alt=""><figcaption></figcaption></figure></div>
+
+接下来，只要将中转站的相关内容填写到下面的框体中即可，代码我放下面。
+
+站点地址与激活码见「导入配置与续费」。
+
+```javascript
+({
+  request: {
+    url: "https://api.orbit1.lat/api/open/card/query",
+    method: "POST",
+    headers: {
+      "Accept": "application/json",
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify({
+      card_key: "<你的激活码，需要手动替换>"
+    })
+  },
+
+  extractor: function(response) {
+    if (response.code !== 200 || !response.data) {
+      return {
+        isValid: false,
+        invalidMessage: response.message || "查询失败"
+      };
+    }
+
+    const data = response.data;
+    const quota = data.quota || {};
+
+    return {
+      isValid: data.status === "active",
+      invalidMessage: data.status_text || "卡密不可用",
+      planName: data.product?.plan_name || "额度卡",
+      remaining: Number(quota.remaining_usd),
+      used: Number(quota.used_usd),
+      total: Number(quota.total_usd),
+      unit: "USD",
+      extra: `请求次数：${quota.request_count ?? 0} 次`
+    };
+  }
+})
+```
+
+<figure><img src=".gitbook/assets/PixPin_20261011_140641 (1).webp" alt=""><figcaption></figcaption></figure>
+
+填入后，点击测试脚本，若显示通过，则可以 保存配置。
+
+旧版脚本已失效，留在附录备查。
+
+## 排障与联系
+
+<!-- 拆分目标：ccup/faq.md -->
+
+### 回答的效果好像不尽如人意？
+
+算力不足的时候会降智，就比如 2026-6-23 的时候，官方算力不足，降智十分明显。
+
+### Claude 回答突然中断怎么办？
+
+[Claude回答突然中断怎么办？5种解决方法（2026最新）](https://my.feishu.cn/wiki/T23uweQZdiT2tFkaTy0chrljn5f)
+
+Claude 回答中断90%的情况是 **token 上限**导致的，直接回复”继续”就能解决。其余情况按照本文的判断表对号入座处理即可。养成”长任务主动拆分”的习惯，比事后处理中断要高效得多。
+
+### 远程协助
 
 推荐 UU 远程，官网地址：<https://uuyc.163.com/>
 
@@ -416,20 +486,20 @@ TOKEN_FULL_BLOOD_PLAUSIBLE
 ![PixPin\_20260713\_214217.png](.gitbook/assets/imgsPixPin_20260713_214217.webp)
 
 ![PixPin\_20260713\_214637.png](.gitbook/assets/imgsPixPin_20260713_214637.webp)
-</details>
 
-<details>
-<summary>相关教程</summary>
+### 联系一轩
 
-外面一份卖 20 - 50 不等，实际是开源的文档。链接：<https://coding.stormzhang.ai/>
+如有疑问，可以加一轩微信。添加备注：中转站过来的
 
-Codex 破甲：
+<img src=".gitbook/assets/imgsbb1a1b81303cde4f996fdcc0303f2137.webp" alt="bb1a1b81303cde4f996fdcc0303f2137.jpg" width="188">
 
-- <https://yynxxxxx.github.io/Codex-X/#hero>
-- <https://github.com/zxr-roro/GPT5.6-5.5-/blob/main/zzy-codex5.6/>
-</details>
+<div align="center"><img src=".gitbook/assets/imgsd523a1dbdf1d0bd10738a939f4f9e672.webp" alt="d523a1dbdf1d0bd10738a939f4f9e672.jpg" width="188"></div>
 
-## Codex (不太推荐)
+另外，欢迎关注一轩的微信公众号：浑语阁
+
+## Codex（不太推荐）
+
+<!-- 拆分目标：ccup/codex.md -->
 
 ### 下载
 
@@ -480,11 +550,13 @@ Codex 破甲：
 
 ![PixPin\_20260701\_184739.png](.gitbook/assets/imgsPixPin_20260701_184739.webp)
 
+### 几个注意事项
+
 那 Hermes 能用吗？**不能**
 
 由于 GPT-5.6 **不稳定**，所以现在先不上这个模型。
 
-注意：如果打开界面后是这个样子的，可以把 Codex 先关掉，然后去 CC Switch 配置，配置好以后再重新打开 Codex（swith 重新生成后，**重启 codex** 后它自动校验到 API 然后自动登录了）
+如果打开界面后是这个样子的，可以把 Codex 先关掉，然后去 CC Switch 配置，配置好以后再重新打开 Codex（switch 重新生成后，**重启 codex** 后它自动校验到 API 然后自动登录了）
 
 ![7d23bb9e19eb5e54b3fd22d3bd090b1c.jpg](.gitbook/assets/imgs7d23bb9e19eb5e54b3fd22d3bd090b1c.webp)
 
@@ -494,27 +566,17 @@ Codex 破甲：
 
 ![PixPin\_20260727\_152549.png](.gitbook/assets/imgsPixPin_20260727_152549.webp)
 
-### Price - GPT 月卡
+价格见上文「套餐与价格」的 GPT / Codex 部分。
 
-有老板实测，
+## 附录
 
-20美元（130+）的 Plus 一个月用下来相当于 **350 刀**额度
+<!-- 拆分目标：ccup/appendix.md -->
 
-月卡是额度每天 100，相当于月 3000 刀
+### Grok（已停售）
 
-经常用的话，性价比是可以有的。
+> 官方不当人，套壳 composer 2.5，不卖了先。不影响原来开通的用户。
 
-- GPT的月卡，上下文長度有限制吗
-  - 上下文随官方的，没限制
-
-```
-# 额度（永久 or 月）
-100 刀 30 CNY
-# 时间
-150 CNY/月 每天 100 刀额度
-```
-
-## HOW USE IN Claude code？
+以下步骤存档备查。
 
 {% stepper %}
 {% step %}
@@ -545,34 +607,61 @@ Codex 破甲：
 {% endstep %}
 {% endstepper %}
 
-### Price（单位：CNY）
+### 旧版用量查询脚本（已失效）
 
-官方不当人，套壳 composer 2.5，不卖了先。
+旧站点的接口，留档备查。
 
-不影响越来开通的用户。
+```
+({
+  request: {
+    url: "{{baseUrl}}/api/user/key-info",
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      "User-Agent": "cc-switch/1.0"
+    },
+    body: JSON.stringify({
+      "key": "{{apiKey}}"
+    })
+  },
+  extractor: function(response) {
+    // 接口返回code不为200直接判定失效
+    if (response.code !== 200) {
+      return {
+        isValid: false,
+        invalidMessage: `接口请求失败，code:${response.code}`
+      }
+    }
+    const data = response.data;
+    // status=1 密钥正常
+    const isValid = data.status === 1;
+    let invalidMessage = "";
+    if (!isValid) {
+      invalidMessage = `密钥状态：${data.status_text || "未知状态"}`;
+    }
+    return {
+      isValid: isValid,
+      invalidMessage: invalidMessage,
+      remaining: data.total_quota_usd - data.used_quota_usd,
+      unit: "USD",
+      planName: data.product_type,
+      total: data.total_quota_usd,
+      used: data.used_quota_usd,
+      extra: `请求次数:${data.request_count}, Token总量:${data.total_tokens}`
+    };
+  }
+})
+```
 
----
+### 旧站点（已停用）
 
-## Some Plus or Pro
+~~<https://rsxermu666.cn/usage>~~
 
-[GPT 代充教程步骤](https://my.feishu.cn/wiki/CVDrw3w9DiroYOkcnKdcvXSWnGg)
-
-| 产品         | 详情      | 价格   | 备注 |
-| ---------- | ------- | ---- | -- |
-| GPT        | Plus    | 158  |    |
-|            | Pro 5x  | 740  |    |
-|            | Pro 20x | 1380 |    |
-| Claude     | Pro     | 168  |    |
-|            | Max     |      |    |
-| Grok       |         |      |    |
-| X（Twitter） |         |      |    |
-| Cursor     | 20刀     | 165  |    |
-
-## 其实，我更推荐 MAC
+### 其实，我更推荐 MAC
 
 <https://mp.weixin.qq.com/s/J8ErjDammtu7l6sRSD8AJQ>
 
-原文贴在下面：
+原文贴在下面（原文未标注作者与发布日期）：
 
 ```
 真想 Vibe？花点钱买个 Mac
@@ -609,7 +698,6 @@ Mac 显然比其他电脑更贵一些。但是对 Viber 来说，它更像一项
 1. 学 AI 到底要不要换电脑? Mac 和 Win 怎么选？
 
 最近星球新加了不少球友，很多人问我这个问题。我的建议是：
-
 有条件直接上 Mac，暂时是 Win 也别急着换，先把 AI 用起来再说。
 
 十年前我做安卓开发的时候就一直推荐 Mac，不是因为它贵就是好，而是 Mac 属于 Unix 系统，内存管理和命令行环境天生为开发而生。Win 在这两块很弱。
@@ -655,114 +743,11 @@ cli 就是在终端里敲，开销最小、启动最快、占用资源最少，�
 别纠结设备、别怕终端——先用起来，才是这个时代最重要的事。
 ```
 
-## CC-Switch 配置计费
+### 外部教程
 
-配置好以后的效果如图所示：
+外面一份卖 20 - 50 不等，实际是开源的文档。链接：<https://coding.stormzhang.ai/>
 
-<figure><img src=".gitbook/assets/PixPin_20261011_134153.webp" alt=""><figcaption></figcaption></figure>
+Codex 破甲：
 
-首先，我们可以点击 配置用量查询，然后，可以点击 启用用量查询，接着可以点击 通用模板 或 自定义
-
-<div><figure><img src=".gitbook/assets/PixPin_20261011_134349.webp" alt=""><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/PixPin_20261011_140319.webp" alt=""><figcaption></figcaption></figure></div>
-
-接下来，只要将中转站的相关内容填写到下面的框体中即可，代码我放下面：
-新代码如下：
-
-```javascript
-
-({
-  request: {
-    url: "https://api.orbit1.lat/api/open/card/query",
-    method: "POST",
-    headers: {
-      "Accept": "application/json",
-      "Content-Type": "application/json"
-    },
-    body: JSON.stringify({
-      card_key: "<你的激活码，需要手动替换>"
-    })
-  },
-
-  extractor: function(response) {
-    if (response.code !== 200 || !response.data) {
-      return {
-        isValid: false,
-        invalidMessage: response.message || "查询失败"
-      };
-    }
-
-    const data = response.data;
-    const quota = data.quota || {};
-
-    return {
-      isValid: data.status === "active",
-      invalidMessage: data.status_text || "卡密不可用",
-      planName: data.product?.plan_name || "额度卡",
-      remaining: Number(quota.remaining_usd),
-      used: Number(quota.used_usd),
-      total: Number(quota.total_usd),
-      unit: "USD",
-      extra: `请求次数：${quota.request_count ?? 0} 次`
-    };
-  }
-})
-
-```
-
-旧代码如下：
-
-```
-({
-  request: {
-    url: "{{baseUrl}}/api/user/key-info",
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-      "User-Agent": "cc-switch/1.0"
-    },
-    body: JSON.stringify({
-      "key": "{{apiKey}}"
-    })
-  },
-  extractor: function(response) {
-    // 接口返回code不为200直接判定失效
-    if (response.code !== 200) {
-      return {
-        isValid: false,
-        invalidMessage: `接口请求失败，code:${response.code}`
-      }
-    }
-    const data = response.data;
-    // status=1 密钥正常
-    const isValid = data.status === 1;
-    let invalidMessage = "";
-    if (!isValid) {
-      invalidMessage = `密钥状态：${data.status_text || "未知状态"}`;
-    }
-    return {
-      isValid: isValid,
-      invalidMessage: invalidMessage,
-      remaining: data.total_quota_usd - data.used_quota_usd,
-      unit: "USD",
-      planName: data.product_type,
-      total: data.total_quota_usd,
-      used: data.used_quota_usd,
-      extra: `请求次数:${data.request_count}, Token总量:${data.total_tokens}`
-    };
-  }
-})
-```
-
-<figure><img src=".gitbook/assets/PixPin_20261011_140641 (1).webp" alt=""><figcaption></figcaption></figure>
-
-填入后，点击测试脚本，若显示通过，则可以 保存配置
-
-## 疑问解答-联系一轩
-
-如有疑问，可以加一轩微信。添加备注：中转站过来的
-
-<img src=".gitbook/assets/imgsbb1a1b81303cde4f996fdcc0303f2137.webp" alt="bb1a1b81303cde4f996fdcc0303f2137.jpg" width="188">
-
-<div align="center"><img src=".gitbook/assets/imgsd523a1dbdf1d0bd10738a939f4f9e672.webp" alt="d523a1dbdf1d0bd10738a939f4f9e672.jpg" width="188"></div>
-
-另外，欢迎关注一轩的微信公众号：浑语阁
+- <https://yynxxxxx.github.io/Codex-X/#hero>
+- <https://github.com/zxr-roro/GPT5.6-5.5-/blob/main/zzy-codex5.6/>
