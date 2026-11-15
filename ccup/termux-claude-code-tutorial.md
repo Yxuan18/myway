@@ -27,7 +27,7 @@ mkdir -p ~/.claude
 cat > ~/.claude/settings.json <<'EOF'
 {
   "env": {
-    "ANTHROPIC_BASE_URL": "https://api.qiyuanapi.cc",
+    "ANTHROPIC_BASE_URL": "https://<YOUR_API_URL>",
     "ANTHROPIC_API_KEY": "<YOUR_API_KEY>",
     "ANTHROPIC_DEFAULT_OPUS_MODEL": "deepseek-v4.1",
     "ANTHROPIC_DEFAULT_SONNET_MODEL": "deepseek-v4.1",
@@ -93,13 +93,28 @@ Error: claude native binary not installed.
 
 官方 issue 已确认这一点（anthropics/claude-code #50270，截至 2026-10 仍开放）。issue 讨论里也确认：**proot-distro 里的 Debian 可以正常运行**，因为容器里是标准 Linux 环境。
 
+同一份二进制，放进两个不同的运行库环境，结果相反：
+
+```mermaid
+flowchart TD
+    B["Claude Code 官方二进制<br/>编译目标：glibc"]
+    B --> T["放进 Termux 直接跑<br/>Android 提供 bionic"]
+    B --> D["放进 Debian 容器跑<br/>Debian 提供 glibc"]
+    T --> T2["失败：unexpected e_type: 2<br/>或 native binary not installed"]
+    D --> D2["成功：正常启动"]
+```
+
+所以这套方案不是绕路，是补上唯一缺的那一层。
+
 ### 1.3 结构图
 
-```text
-安卓手机
-└── Termux（App）
-    └── proot-distro 容器：Debian 13
-        └── Claude Code 2.1.325（官方 Linux arm64 二进制）
+```mermaid
+flowchart TB
+    P["安卓手机"]
+    T["Termux（App）<br/>只负责提供终端、启动容器"]
+    D["proot-distro 容器<br/>Debian 13"]
+    C["Claude Code 2.1.325<br/>官方 Linux arm64 二进制"]
+    P --> T --> D --> C
 ```
 
 Termux 本身只负责“提供终端”和“启动容器”。真正干活的 Claude Code 在 Debian 容器里。
@@ -367,7 +382,7 @@ mkdir -p ~/.claude
 cat > ~/.claude/settings.json <<'EOF'
 {
   "env": {
-    "ANTHROPIC_BASE_URL": "https://api.qiyuanapi.cc",
+    "ANTHROPIC_BASE_URL": "https://<YOUR_API_URL>",
     "ANTHROPIC_API_KEY": "<YOUR_API_KEY>",
     "ANTHROPIC_DEFAULT_OPUS_MODEL": "deepseek-v4.1",
     "ANTHROPIC_DEFAULT_OPUS_MODEL_NAME": "deepseek-v4.1",
@@ -407,7 +422,7 @@ chmod 600 ~/.claude/settings.json
 
 ```sh
 KEY='<YOUR_API_KEY>'
-curl -sS -w "\nhttp=%{http_code}\n" https://api.qiyuanapi.cc/v1/messages \
+curl -sS -w "\nhttp=%{http_code}\n" https://<YOUR_API_URL>/v1/messages \
   -H "content-type: application/json" \
   -H "anthropic-version: 2023-06-01" \
   -H "x-api-key: $KEY" \
@@ -424,18 +439,18 @@ curl -sS -w "\nhttp=%{http_code}\n" https://api.qiyuanapi.cc/v1/messages \
 
 | 请求地址 | 结果 |
 |---|---|
-| `https://api.qiyuanapi.cc/v1/messages` | 200 |
-| `https://api.qiyuanapi.cc/v1/v1/messages` | 404 |
+| `https://<YOUR_API_URL>/v1/messages` | 200 |
+| `https://<YOUR_API_URL>/v1/v1/messages` | 404 |
 
 Claude Code 的 debug 日志也显示它实际请求的是：
 
 ```text
-POST https://api.qiyuanapi.cc/v1/messages?beta=true
+POST https://<YOUR_API_URL>/v1/messages?beta=true
 ```
 
 Claude Code 自己会拼接 `/v1/messages`，所以 `ANTHROPIC_BASE_URL` 只写到域名。
 
-有些 cc-switch 类工具的 provider 配置里写的是 `https://api.qiyuanapi.cc/v1`，那是给它们自己的代理层用的，直接抄给 Claude Code 会变成 `/v1/v1`。
+有些 cc-switch 类工具的 provider 配置里写的是 `https://<YOUR_API_URL>/v1`，那是给它们自己的代理层用的，直接抄给 Claude Code 会变成 `/v1/v1`。
 
 ---
 
@@ -451,6 +466,23 @@ Claude Code 自己会拼接 `/v1/messages`，所以 `ANTHROPIC_BASE_URL` 只写�
 2. 保持当前目录；
 3. 启动 Claude Code；
 4. 参数原样传进去（`claude -c`、`claude -p "..."` 都能用）。
+
+整条链路是这样走的：
+
+```mermaid
+sequenceDiagram
+    actor U as 用户
+    participant L as Termux 启动器
+    participant E as claude-entry
+    participant C as Claude Code
+    U->>L: claude
+    L->>E: proot-distro login，传入 CC_WORKDIR
+    E->>E: cd 到 CC_WORKDIR
+    E->>C: exec，参数原样转发
+    C-->>U: 聊天界面
+```
+
+出问题时按这条链逐段排查：`command -v claude` 查第一段，`proot-distro login` 查第二段，`claude --version` 查最后一段。
 
 ### 8.2 创建 Termux 侧启动器
 
@@ -503,6 +535,22 @@ claude
 ```
 
 按顺序可能会遇到这些界面。不同版本略有差异，按下面选择即可。
+
+```mermaid
+flowchart TD
+    S["输入 claude"] --> A["主题选择"]
+    A --> B{"出现登录方式？"}
+    B -->|是| B1["按 Esc 跳过"]
+    B -->|否| C
+    B1 --> K{"提示自定义 API key？"}
+    K -->|是| K1["上方向键选 Yes"]
+    K -->|否| C
+    K1 --> C["安全提示：回车"]
+    C --> D["信任目录：选 Yes"]
+    D --> E["进入聊天界面"]
+```
+
+这里的每个叉路都跟配置状态有关，不是每次都出现。
 
 ### 9.1 主题选择
 
@@ -920,7 +968,7 @@ adb shell "su -c 'kill -9 <pid1> <pid2>'"
 ### 15.1 假设
 
 - 设备是 arm64 安卓手机，系统为 Android 7 以上。本次只在 Redmi K60 Pro / HyperOS 3 / Android 16 上实测。
-- 中转站为 `api.qiyuanapi.cc`，可用模型为 `deepseek-v4.1` 等。换中转站时，地址、key、模型名三项都要改。
+- 中转站为 `<YOUR_API_URL>`，可用模型为 `deepseek-v4.1` 等。换中转站时，地址、key、模型名三项都要改。
 - 安装阶段网络能访问所需域名；运行时只需能访问中转站。
 
 ### 15.2 证据等级
